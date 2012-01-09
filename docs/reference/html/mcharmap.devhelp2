@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE book PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "">
+<book xmlns="http://www.devhelp.net/book" title="mcharmap Reference Manual" link="index.html" author="" name="mcharmap" version="2" language="c">
+  <chapters>
+    <sub name="[Insert title here]" link="ch01.html">
+      <sub name="McharmapCodepointList" link="McharmapCodepointList.html"/>
+      <sub name="McharmapBlockChaptersModel" link="McharmapBlockChaptersModel.html"/>
+      <sub name="McharmapChaptersModel" link="mcharmap-mcharmap-chapters-model.html"/>
+      <sub name="McharmapChartable" link="mcharmap-mcharmap-chartable.html"/>
+      <sub name="McharmapScriptChaptersModel" link="McharmapScriptChaptersModel.html"/>
+      <sub name="McharmapScriptCodepointList" link="mcharmap-mcharmap-script-codepoint-list.html"/>
+      <sub name="McharmapChaptersView" link="mcharmap-mcharmap-chapters-view.html"/>
+      <sub name="McharmapCharmap" link="mcharmap-mcharmap-charmap.html"/>
+      <sub name="mcharmap-unicode-info" link="mcharmap-mcharmap-unicode-info.html"/>
+    </sub>
+  </chapters>
+  <functions>
+    <keyword type="struct" name="struct McharmapCodepointList" link="McharmapCodepointList.html#McharmapCodepointList-struct"/>
+    <keyword type="function" name="mcharmap_codepoint_list_get_char ()" link="McharmapCodepointList.html#mcharmap-codepoint-list-get-char"/>
+    <keyword type="function" name="mcharmap_codepoint_list_get_index ()" link="McharmapCodepointList.html#mcharmap-codepoint-list-get-index"/>
+    <keyword type="function" name="mcharmap_codepoint_list_get_last_index ()" link="McharmapCodepointList.html#mcharmap-codepoint-list-get-last-index"/>
+    <keyword type="struct" name="struct McharmapBlockChaptersModel" link="McharmapBlockChaptersModel.html#McharmapBlockChaptersModel-struct"/>
+    <keyword type="function" name="mcharmap_block_chapters_model_new ()" link="McharmapBlockChaptersModel.html#mcharmap-block-chapters-model-new"/>
+    <keyword type="struct" name="McharmapChaptersModelPrivate" link="mcharmap-mcharmap-chapters-model.html#McharmapChaptersModelPrivate"/>
+    <keyword type="struct" name="struct McharmapChaptersModel" link="mcharmap-mcharmap-chapters-model.html#McharmapChaptersModel-struct"/>
+    <keyword type="function" name="mcharmap_chapters_model_get_codepoint_list ()" link="mcharmap-mcharmap-chapters-model.html#mcharmap-chapters-model-get-codepoint-list"/>
+    <keyword type="function" name="mcharmap_chapters_model_get_title ()" link="mcharmap-mcharmap-chapters-model.html#mcharmap-chapters-model-get-title"/>
+    <keyword type="function" name="mcharmap_chapters_model_get_book_codepoint_list ()" link="mcharmap-mcharmap-chapters-model.html#mcharmap-chapters-model-get-book-codepoint-list"/>
+    <keyword type="function" name="mcharmap_chapters_model_character_to_iter ()" link="mcharmap-mcharmap-chapters-model.html#mcharmap-chapters-model-character-to-iter"/>
+    <keyword type="function" name="mcharmap_chapters_model_id_to_iter ()" link="mcharmap-mcharmap-chapters-model.html#mcharmap-chapters-model-id-to-iter"/>
+    <keyword type="struct" name="McharmapChartablePrivate" link="mcharmap-mcharmap-chartable.html#McharmapChartablePrivate"/>
+    <keyword type="struct" name="struct McharmapChartable" link="mcharmap-mcharmap-chartable.html#McharmapChartable-struct"/>
+    <keyword type="function" name="mcharmap_chartable_new ()" link="mcharmap-mcharmap-chartable.html#mcharmap-chartable-new"/>
+    <keyword type="function" name="mcharmap_chartable_set_font_desc ()" link="mcharmap-mcharmap-chartable.html#mcharmap-chartable-set-font-desc"/>
+    <keyword type="function" name="mcharmap_chartable_get_active_character ()" link="mcharmap-mcharmap-chartable.html#mcharmap-chartable-get-active-character"/>
+    <keyword type="function" name="mcharmap_chartable_set_active_character ()" link="mcharmap-mcharmap-chartable.html#mcharmap-chartable-set-active-character"/>
+    <keyword type="function" name="mcharmap_chartable_set_zoom_enabled ()" link="mcharmap-mcharmap-chartable.html#mcharmap-chartable-set-zoom-enabled"/>
+    <keyword type="function" name="mcharmap_chartable_get_zoom_enabled ()" link="mcharmap-mcharmap-chartable.html#mcharmap-chartable-get-zoom-enabled"/>
+    <keyword type="function" name="mcharmap_chartable_set_snap_pow2 ()" link="mcharmap-mcharmap-chartable.html#mcharmap-chartable-set-snap-pow2"/>
+    <keyword type="function" name="mcharmap_chartable_set_codepoint_list ()" link="mcharmap-mcharmap-chartable.html#mcharmap-chartable-set-codepoint-list"/>
+    <keyword type="function" name="mcharmap_chartable_get_codepoint_list ()" link="mcharmap-mcharmap-chartable.html#mcharmap-chartable-get-codepoint-list"/>
+    <keyword type="property" name="The &quot;active-character&quot; property" link="mcharmap-mcharmap-chartable.html#McharmapChartable--active-character"/>
+    <keyword type="property" name="The &quot;codepoint-list&quot; property" link="mcharmap-mcharmap-chartable.html#McharmapChartable--codepoint-list"/>
+    <keyword type="property" name="The &quot;font-desc&quot; property" link="mcharmap-mcharmap-chartable.html#McharmapChartable--font-desc"/>
+    <keyword type="property" name="The &quot;snap-power-2&quot; property" link="mcharmap-mcharmap-chartable.html#McharmapChartable--snap-power-2"/>
+    <keyword type="property" name="The &quot;zoom-enabled&quot; property" link="mcharmap-mcharmap-chartable.html#McharmapChartable--zoom-enabled"/>
+    <keyword type="property" name="The &quot;zoom-showing&quot; property" link="mcharmap-mcharmap-chartable.html#McharmapChartable--zoom-showing"/>
+    <keyword type="signal" name="The &quot;activate&quot; signal" link="mcharmap-mcharmap-chartable.html#McharmapChartable-activate"/>
+    <keyword type="signal" name="The &quot;copy-clipboard&quot; signal" link="mcharmap-mcharmap-chartable.html#McharmapChartable-copy-clipboard"/>
+    <keyword type="signal" name="The &quot;move-cursor&quot; signal" link="mcharmap-mcharmap-chartable.html#McharmapChartable-move-cursor"/>
+    <keyword type="signal" name="The &quot;paste-clipboard&quot; signal" link="mcharmap-mcharmap-chartable.html#McharmapChartable-paste-clipboard"/>
+    <keyword type="signal" name="The &quot;set-scroll-adjustments&quot; signal" link="mcharmap-mcharmap-chartable.html#McharmapChartable-set-scroll-adjustments"/>
+    <keyword type="signal" name="The &quot;status-message&quot; signal" link="mcharmap-mcharmap-chartable.html#McharmapChartable-status-message"/>
+    <keyword type="struct" name="struct McharmapScriptChaptersModel" link="McharmapScriptChaptersModel.html#McharmapScriptChaptersModel-struct"/>
+    <keyword type="function" name="mcharmap_script_chapters_model_new ()" link="McharmapScriptChaptersModel.html#mcharmap-script-chapters-model-new"/>
+    <keyword type="struct" name="McharmapScriptCodepointListPrivate" link="mcharmap-mcharmap-script-codepoint-list.html#McharmapScriptCodepointListPrivate"/>
+    <keyword type="struct" name="struct McharmapScriptCodepointList" link="mcharmap-mcharmap-script-codepoint-list.html#McharmapScriptCodepointList-struct"/>
+    <keyword type="function" name="mcharmap_script_codepoint_list_new ()" link="mcharmap-mcharmap-script-codepoint-list.html#mcharmap-script-codepoint-list-new"/>
+    <keyword type="function" name="mcharmap_script_codepoint_list_set_script ()" link="mcharmap-mcharmap-script-codepoint-list.html#mcharmap-script-codepoint-list-set-script"/>
+    <keyword type="function" name="mcharmap_script_codepoint_list_set_scripts ()" link="mcharmap-mcharmap-script-codepoint-list.html#mcharmap-script-codepoint-list-set-scripts"/>
+    <keyword type="function" name="mcharmap_script_codepoint_list_append_script ()" link="mcharmap-mcharmap-script-codepoint-list.html#mcharmap-script-codepoint-list-append-script"/>
+    <keyword type="struct" name="McharmapChaptersViewPrivate" link="mcharmap-mcharmap-chapters-view.html#McharmapChaptersViewPrivate"/>
+    <keyword type="struct" name="struct McharmapChaptersView" link="mcharmap-mcharmap-chapters-view.html#McharmapChaptersView-struct"/>
+    <keyword type="function" name="mcharmap_chapters_view_new ()" link="mcharmap-mcharmap-chapters-view.html#mcharmap-chapters-view-new"/>
+    <keyword type="function" name="mcharmap_chapters_view_set_model ()" link="mcharmap-mcharmap-chapters-view.html#mcharmap-chapters-view-set-model"/>
+    <keyword type="function" name="mcharmap_chapters_view_get_model ()" link="mcharmap-mcharmap-chapters-view.html#mcharmap-chapters-view-get-model"/>
+    <keyword type="function" name="mcharmap_chapters_view_select_character ()" link="mcharmap-mcharmap-chapters-view.html#mcharmap-chapters-view-select-character"/>
+    <keyword type="function" name="mcharmap_chapters_view_get_codepoint_list ()" link="mcharmap-mcharmap-chapters-view.html#mcharmap-chapters-view-get-codepoint-list"/>
+    <keyword type="function" name="mcharmap_chapters_view_get_book_codepoint_list ()" link="mcharmap-mcharmap-chapters-view.html#mcharmap-chapters-view-get-book-codepoint-list"/>
+    <keyword type="function" name="mcharmap_chapters_view_next ()" link="mcharmap-mcharmap-chapters-view.html#mcharmap-chapters-view-next"/>
+    <keyword type="function" name="mcharmap_chapters_view_previous ()" link="mcharmap-mcharmap-chapters-view.html#mcharmap-chapters-view-previous"/>
+    <keyword type="function" name="mcharmap_chapters_view_get_selected ()" link="mcharmap-mcharmap-chapters-view.html#mcharmap-chapters-view-get-selected"/>
+    <keyword type="function" name="mcharmap_chapters_view_set_selected ()" link="mcharmap-mcharmap-chapters-view.html#mcharmap-chapters-view-set-selected"/>
+    <keyword type="function" name="mcharmap_chapters_view_select_locale ()" link="mcharmap-mcharmap-chapters-view.html#mcharmap-chapters-view-select-locale"/>
+    <keyword type="struct" name="McharmapCharmapPrivate" link="mcharmap-mcharmap-charmap.html#McharmapCharmapPrivate"/>
+    <keyword type="struct" name="struct McharmapCharmap" link="mcharmap-mcharmap-charmap.html#McharmapCharmap-struct"/>
+    <keyword type="function" name="mcharmap_charmap_new ()" link="mcharmap-mcharmap-charmap.html#mcharmap-charmap-new"/>
+    <keyword type="function" name="mcharmap_charmap_set_active_character ()" link="mcharmap-mcharmap-charmap.html#mcharmap-charmap-set-active-character"/>
+    <keyword type="function" name="mcharmap_charmap_get_active_character ()" link="mcharmap-mcharmap-charmap.html#mcharmap-charmap-get-active-character"/>
+    <keyword type="function" name="mcharmap_charmap_set_active_chapter ()" link="mcharmap-mcharmap-charmap.html#mcharmap-charmap-set-active-chapter"/>
+    <keyword type="function" name="mcharmap_charmap_get_active_chapter ()" link="mcharmap-mcharmap-charmap.html#mcharmap-charmap-get-active-chapter"/>
+    <keyword type="function" name="mcharmap_charmap_set_font_desc ()" link="mcharmap-mcharmap-charmap.html#mcharmap-charmap-set-font-desc"/>
+    <keyword type="function" name="mcharmap_charmap_get_chartable ()" link="mcharmap-mcharmap-charmap.html#mcharmap-charmap-get-chartable"/>
+    <keyword type="function" name="mcharmap_charmap_get_chapters_view ()" link="mcharmap-mcharmap-charmap.html#mcharmap-charmap-get-chapters-view"/>
+    <keyword type="function" name="mcharmap_charmap_set_chapters_model ()" link="mcharmap-mcharmap-charmap.html#mcharmap-charmap-set-chapters-model"/>
+    <keyword type="function" name="mcharmap_charmap_get_chapters_model ()" link="mcharmap-mcharmap-charmap.html#mcharmap-charmap-get-chapters-model"/>
+    <keyword type="function" name="mcharmap_charmap_get_book_codepoint_list ()" link="mcharmap-mcharmap-charmap.html#mcharmap-charmap-get-book-codepoint-list"/>
+    <keyword type="property" name="The &quot;active-chapter&quot; property" link="mcharmap-mcharmap-charmap.html#McharmapCharmap--active-chapter"/>
+    <keyword type="property" name="The &quot;active-character&quot; property" link="mcharmap-mcharmap-charmap.html#McharmapCharmap--active-character"/>
+    <keyword type="property" name="The &quot;active-codepoint-list&quot; property" link="mcharmap-mcharmap-charmap.html#McharmapCharmap--active-codepoint-list"/>
+    <keyword type="property" name="The &quot;active-page&quot; property" link="mcharmap-mcharmap-charmap.html#McharmapCharmap--active-page"/>
+    <keyword type="property" name="The &quot;chapters-model&quot; property" link="mcharmap-mcharmap-charmap.html#McharmapCharmap--chapters-model"/>
+    <keyword type="property" name="The &quot;font-desc&quot; property" link="mcharmap-mcharmap-charmap.html#McharmapCharmap--font-desc"/>
+    <keyword type="property" name="The &quot;snap-power-2&quot; property" link="mcharmap-mcharmap-charmap.html#McharmapCharmap--snap-power-2"/>
+    <keyword type="signal" name="The &quot;link-clicked&quot; signal" link="mcharmap-mcharmap-charmap.html#McharmapCharmap-link-clicked"/>
+    <keyword type="signal" name="The &quot;status-message&quot; signal" link="mcharmap-mcharmap-charmap.html#McharmapCharmap-status-message"/>
+    <keyword type="enum" name="enum McharmapUnicodeVersion" link="mcharmap-mcharmap-unicode-info.html#McharmapUnicodeVersion"/>
+    <keyword type="function" name="mcharmap_get_unicode_name ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-unicode-name"/>
+    <keyword type="function" name="mcharmap_get_unicode_data_name ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-unicode-data-name"/>
+    <keyword type="function" name="mcharmap_get_unicode_data_name_count ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-unicode-data-name-count"/>
+    <keyword type="function" name="mcharmap_get_unicode_version ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-unicode-version"/>
+    <keyword type="function" name="mcharmap_get_unicode_category_name ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-unicode-category-name"/>
+    <keyword type="function" name="mcharmap_get_unihan_count ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-unihan-count"/>
+    <keyword type="function" name="mcharmap_get_unicode_kDefinition ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-unicode-kDefinition"/>
+    <keyword type="function" name="mcharmap_get_unicode_kCantonese ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-unicode-kCantonese"/>
+    <keyword type="function" name="mcharmap_get_unicode_kMandarin ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-unicode-kMandarin"/>
+    <keyword type="function" name="mcharmap_get_unicode_kTang ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-unicode-kTang"/>
+    <keyword type="function" name="mcharmap_get_unicode_kKorean ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-unicode-kKorean"/>
+    <keyword type="function" name="mcharmap_get_unicode_kJapaneseKun ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-unicode-kJapaneseKun"/>
+    <keyword type="function" name="mcharmap_get_unicode_kJapaneseOn ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-unicode-kJapaneseOn"/>
+    <keyword type="function" name="mcharmap_get_nameslist_stars ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-nameslist-stars"/>
+    <keyword type="function" name="mcharmap_get_nameslist_equals ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-nameslist-equals"/>
+    <keyword type="function" name="mcharmap_get_nameslist_exes ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-nameslist-exes"/>
+    <keyword type="function" name="mcharmap_get_nameslist_pounds ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-nameslist-pounds"/>
+    <keyword type="function" name="mcharmap_get_nameslist_colons ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-get-nameslist-colons"/>
+    <keyword type="function" name="mcharmap_unichar_validate ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-unichar-validate"/>
+    <keyword type="function" name="mcharmap_unichar_to_printable_utf8 ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-unichar-to-printable-utf8"/>
+    <keyword type="function" name="mcharmap_unichar_type ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-unichar-type"/>
+    <keyword type="function" name="mcharmap_unichar_isdefined ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-unichar-isdefined"/>
+    <keyword type="function" name="mcharmap_unichar_isgraph ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-unichar-isgraph"/>
+    <keyword type="function" name="mcharmap_unicode_list_scripts ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-unicode-list-scripts"/>
+    <keyword type="function" name="mcharmap_unicode_get_script_for_char ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-unicode-get-script-for-char"/>
+    <keyword type="function" name="mcharmap_unicode_version_to_string ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-unicode-version-to-string"/>
+    <keyword type="function" name="mcharmap_unicode_get_locale_character ()" link="mcharmap-mcharmap-unicode-info.html#mcharmap-unicode-get-locale-character"/>
+  </functions>
+</book>

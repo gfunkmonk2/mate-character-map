@@ -1,0 +1,17 @@
+[encoding: UTF-8]
+mcharmap.desktop.in.in
+mcharmap.schemas.in
+mcharmap/mcharmap-charmap.c
+mcharmap/mcharmap-chartable.c
+mcharmap/mcharmap-chartable-accessible.c
+mcharmap/mcharmap-mini-fontsel.c
+mcharmap/mcharmap-settings.c
+mcharmap/mcharmap-script-codepoint-list.c
+mcharmap/mcharmap-unicode-info.c
+mcharmap/mcharmap-window.c
+mcharmap/main.c
+mcharmap/unicode-blocks.h
+mcharmap/unicode-scripts.h
+mcharmap/mcharmap-search-dialog.c
+mcharmap/mcharmap-block-chapters-model.c
+mcharmap/mcharmap-script-chapters-model.c

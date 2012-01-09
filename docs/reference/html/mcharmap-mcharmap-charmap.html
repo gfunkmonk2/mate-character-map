@@ -1,0 +1,326 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>McharmapCharmap</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="mcharmap Reference Manual">
+<link rel="up" href="ch01.html" title="[Insert title here]">
+<link rel="prev" href="mcharmap-mcharmap-chapters-view.html" title="McharmapChaptersView">
+<link rel="next" href="mcharmap-mcharmap-unicode-info.html" title="mcharmap-unicode-info">
+<meta name="generator" content="GTK-Doc V1.18 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="mcharmap-mcharmap-chapters-view.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">mcharmap Reference Manual</th>
+<td><a accesskey="n" href="mcharmap-mcharmap-unicode-info.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#mcharmap-mcharmap-charmap.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#mcharmap-mcharmap-charmap.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#mcharmap-mcharmap-charmap.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                   | 
+                  <a href="#mcharmap-mcharmap-charmap.implemented-interfaces" class="shortcut">Implemented Interfaces</a>
+                   | 
+                  <a href="#mcharmap-mcharmap-charmap.properties" class="shortcut">Properties</a>
+                   | 
+                  <a href="#mcharmap-mcharmap-charmap.signals" class="shortcut">Signals</a>
+</td></tr>
+</table>
+<div class="refentry">
+<a name="mcharmap-mcharmap-charmap"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="mcharmap-mcharmap-charmap.top_of_page"></a>McharmapCharmap</span></h2>
+<p>McharmapCharmap</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="mcharmap-mcharmap-charmap.synopsis"></a><h2>Synopsis</h2>
+<a name="McharmapCharmap"></a><pre class="synopsis">                    <a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmapPrivate" title="McharmapCharmapPrivate">McharmapCharmapPrivate</a>;
+struct              <a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap-struct" title="struct McharmapCharmap">McharmapCharmap</a>;
+<a href="../gtk/GtkWidget.html"><span class="returnvalue">GtkWidget</span></a> *         <a class="link" href="mcharmap-mcharmap-charmap.html#mcharmap-charmap-new" title="mcharmap_charmap_new ()">mcharmap_charmap_new</a>                (<em class="parameter"><code><span class="type">void</span></code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="mcharmap-mcharmap-charmap.html#mcharmap-charmap-set-active-character" title="mcharmap_charmap_set_active_character ()">mcharmap_charmap_set_active_character</a>
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>,
+                                                         <em class="parameter"><code><a href="../glib/glib-Unicode-Manipulation.html#gunichar"><span class="type">gunichar</span></a> uc</code></em>);
+<a href="../glib/glib-Unicode-Manipulation.html#gunichar"><span class="returnvalue">gunichar</span></a>            <a class="link" href="mcharmap-mcharmap-charmap.html#mcharmap-charmap-get-active-character" title="mcharmap_charmap_get_active_character ()">mcharmap_charmap_get_active_character</a>
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="mcharmap-mcharmap-charmap.html#mcharmap-charmap-set-active-chapter" title="mcharmap_charmap_set_active_chapter ()">mcharmap_charmap_set_active_chapter</a> (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *chapter</code></em>);
+<span class="returnvalue">char</span> *              <a class="link" href="mcharmap-mcharmap-charmap.html#mcharmap-charmap-get-active-chapter" title="mcharmap_charmap_get_active_chapter ()">mcharmap_charmap_get_active_chapter</a> (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="mcharmap-mcharmap-charmap.html#mcharmap-charmap-set-font-desc" title="mcharmap_charmap_set_font_desc ()">mcharmap_charmap_set_font_desc</a>      (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>,
+                                                         <em class="parameter"><code><a href="../pango/pango-Fonts.html#PangoFontDescription"><span class="type">PangoFontDescription</span></a> *font_desc</code></em>);
+<a class="link" href="mcharmap-mcharmap-chartable.html#McharmapChartable"><span class="returnvalue">McharmapChartable</span></a> * <a class="link" href="mcharmap-mcharmap-charmap.html#mcharmap-charmap-get-chartable" title="mcharmap_charmap_get_chartable ()">mcharmap_charmap_get_chartable</a>      (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>);
+<a class="link" href="mcharmap-mcharmap-chapters-view.html#McharmapChaptersView"><span class="returnvalue">McharmapChaptersView</span></a> * <a class="link" href="mcharmap-mcharmap-charmap.html#mcharmap-charmap-get-chapters-view" title="mcharmap_charmap_get_chapters_view ()">mcharmap_charmap_get_chapters_view</a>
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="mcharmap-mcharmap-charmap.html#mcharmap-charmap-set-chapters-model" title="mcharmap_charmap_set_chapters_model ()">mcharmap_charmap_set_chapters_model</a> (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="mcharmap-mcharmap-chapters-model.html#McharmapChaptersModel"><span class="type">McharmapChaptersModel</span></a> *model</code></em>);
+<a class="link" href="mcharmap-mcharmap-chapters-model.html#McharmapChaptersModel"><span class="returnvalue">McharmapChaptersModel</span></a> * <a class="link" href="mcharmap-mcharmap-charmap.html#mcharmap-charmap-get-chapters-model" title="mcharmap_charmap_get_chapters_model ()">mcharmap_charmap_get_chapters_model</a>
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>);
+<a class="link" href="McharmapCodepointList.html" title="McharmapCodepointList"><span class="returnvalue">McharmapCodepointList</span></a> * <a class="link" href="mcharmap-mcharmap-charmap.html#mcharmap-charmap-get-book-codepoint-list" title="mcharmap_charmap_get_book_codepoint_list ()">mcharmap_charmap_get_book_codepoint_list</a>
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>);
+</pre>
+</div>
+<div class="refsect1">
+<a name="mcharmap-mcharmap-charmap.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a href="../gobject/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+   +----<a href="../gobject/gobject-The-Base-Object-Type.html#GInitiallyUnowned">GInitiallyUnowned</a>
+         +----<a href="../gtk/GtkObject.html">GtkObject</a>
+               +----<a href="../gtk/GtkWidget.html">GtkWidget</a>
+                     +----<a href="../gtk/GtkContainer.html">GtkContainer</a>
+                           +----<a href="../gtk/GtkPaned.html">GtkPaned</a>
+                                 +----McharmapCharmap
+</pre>
+</div>
+<div class="refsect1">
+<a name="mcharmap-mcharmap-charmap.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+McharmapCharmap implements
+ AtkImplementorIface,  <a href="../gtk/GtkBuildable.html">GtkBuildable</a> and  <a href="../gtk/gtk-Orientable.html#GtkOrientable">GtkOrientable</a>.</p>
+</div>
+<div class="refsect1">
+<a name="mcharmap-mcharmap-charmap.properties"></a><h2>Properties</h2>
+<pre class="synopsis">
+  "<a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap--active-chapter" title='The "active-chapter" property'>active-chapter</a>"           <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a>*                : Read / Write
+  "<a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap--active-character" title='The "active-character" property'>active-character</a>"         <a href="../glib/glib-Basic-Types.html#guint"><span class="type">guint</span></a>                 : Read / Write
+  "<a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap--active-codepoint-list" title='The "active-codepoint-list" property'>active-codepoint-list</a>"    <a class="link" href="McharmapCodepointList.html" title="McharmapCodepointList"><span class="type">McharmapCodepointList</span></a>*  : Read
+  "<a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap--active-page" title='The "active-page" property'>active-page</a>"              <a href="../glib/glib-Basic-Types.html#guint"><span class="type">guint</span></a>                 : Read / Write
+  "<a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap--chapters-model" title='The "chapters-model" property'>chapters-model</a>"           <a class="link" href="mcharmap-mcharmap-chapters-model.html#McharmapChaptersModel"><span class="type">McharmapChaptersModel</span></a>*  : Write / Construct
+  "<a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap--font-desc" title='The "font-desc" property'>font-desc</a>"                <a href="../pango/pango-Fonts.html#PangoFontDescription"><span class="type">PangoFontDescription</span></a>*  : Read / Write
+  "<a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap--snap-power-2" title='The "snap-power-2" property'>snap-power-2</a>"             <a href="../glib/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>              : Read / Write
+</pre>
+</div>
+<div class="refsect1">
+<a name="mcharmap-mcharmap-charmap.signals"></a><h2>Signals</h2>
+<pre class="synopsis">
+  "<a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap-link-clicked" title='The "link-clicked" signal'>link-clicked</a>"                                   : <a href="../gobject/gobject-Signals.html#G-SIGNAL-RUN-FIRST:CAPS"><code class="literal">Run First</code></a>
+  "<a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap-status-message" title='The "status-message" signal'>status-message</a>"                                 : <a href="../gobject/gobject-Signals.html#G-SIGNAL-RUN-FIRST:CAPS"><code class="literal">Run First</code></a>
+</pre>
+</div>
+<div class="refsect1">
+<a name="mcharmap-mcharmap-charmap.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1">
+<a name="mcharmap-mcharmap-charmap.details"></a><h2>Details</h2>
+<div class="refsect2">
+<a name="McharmapCharmapPrivate"></a><h3>McharmapCharmapPrivate</h3>
+<pre class="programlisting">typedef struct _McharmapCharmapPrivate McharmapCharmapPrivate;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="McharmapCharmap-struct"></a><h3>struct McharmapCharmap</h3>
+<pre class="programlisting">struct McharmapCharmap;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcharmap-charmap-new"></a><h3>mcharmap_charmap_new ()</h3>
+<pre class="programlisting"><a href="../gtk/GtkWidget.html"><span class="returnvalue">GtkWidget</span></a> *         mcharmap_charmap_new                (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcharmap-charmap-set-active-character"></a><h3>mcharmap_charmap_set_active_character ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                mcharmap_charmap_set_active_character
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>,
+                                                         <em class="parameter"><code><a href="../glib/glib-Unicode-Manipulation.html#gunichar"><span class="type">gunichar</span></a> uc</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcharmap-charmap-get-active-character"></a><h3>mcharmap_charmap_get_active_character ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Unicode-Manipulation.html#gunichar"><span class="returnvalue">gunichar</span></a>            mcharmap_charmap_get_active_character
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcharmap-charmap-set-active-chapter"></a><h3>mcharmap_charmap_set_active_chapter ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                mcharmap_charmap_set_active_chapter (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *chapter</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcharmap-charmap-get-active-chapter"></a><h3>mcharmap_charmap_get_active_chapter ()</h3>
+<pre class="programlisting"><span class="returnvalue">char</span> *              mcharmap_charmap_get_active_chapter (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcharmap-charmap-set-font-desc"></a><h3>mcharmap_charmap_set_font_desc ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                mcharmap_charmap_set_font_desc      (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>,
+                                                         <em class="parameter"><code><a href="../pango/pango-Fonts.html#PangoFontDescription"><span class="type">PangoFontDescription</span></a> *font_desc</code></em>);</pre>
+<p>
+Sets <em class="parameter"><code>font_desc</code></em> as the font to use to display the character table.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>font_desc</code></em> :</span></p></td>
+<td>a <a href="../pango/pango-Fonts.html#PangoFontDescription"><span class="type">PangoFontDescription</span></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcharmap-charmap-get-chartable"></a><h3>mcharmap_charmap_get_chartable ()</h3>
+<pre class="programlisting"><a class="link" href="mcharmap-mcharmap-chartable.html#McharmapChartable"><span class="returnvalue">McharmapChartable</span></a> * mcharmap_charmap_get_chartable      (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcharmap-charmap-get-chapters-view"></a><h3>mcharmap_charmap_get_chapters_view ()</h3>
+<pre class="programlisting"><a class="link" href="mcharmap-mcharmap-chapters-view.html#McharmapChaptersView"><span class="returnvalue">McharmapChaptersView</span></a> * mcharmap_charmap_get_chapters_view
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcharmap-charmap-set-chapters-model"></a><h3>mcharmap_charmap_set_chapters_model ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                mcharmap_charmap_set_chapters_model (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>,
+                                                         <em class="parameter"><code><a class="link" href="mcharmap-mcharmap-chapters-model.html#McharmapChaptersModel"><span class="type">McharmapChaptersModel</span></a> *model</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcharmap-charmap-get-chapters-model"></a><h3>mcharmap_charmap_get_chapters_model ()</h3>
+<pre class="programlisting"><a class="link" href="mcharmap-mcharmap-chapters-model.html#McharmapChaptersModel"><span class="returnvalue">McharmapChaptersModel</span></a> * mcharmap_charmap_get_chapters_model
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcharmap-charmap-get-book-codepoint-list"></a><h3>mcharmap_charmap_get_book_codepoint_list ()</h3>
+<pre class="programlisting"><a class="link" href="McharmapCodepointList.html" title="McharmapCodepointList"><span class="returnvalue">McharmapCodepointList</span></a> * mcharmap_charmap_get_book_codepoint_list
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *charmap</code></em>);</pre>
+<p>
+</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="mcharmap-mcharmap-charmap.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="McharmapCharmap--active-chapter"></a><h3>The <code class="literal">"active-chapter"</code> property</h3>
+<pre class="programlisting">  "active-chapter"           <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a>*                : Read / Write</pre>
+<p></p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="McharmapCharmap--active-character"></a><h3>The <code class="literal">"active-character"</code> property</h3>
+<pre class="programlisting">  "active-character"         <a href="../glib/glib-Basic-Types.html#guint"><span class="type">guint</span></a>                 : Read / Write</pre>
+<p></p>
+<p>Allowed values: &lt;= 1114111</p>
+<p>Default value: 0</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="McharmapCharmap--active-codepoint-list"></a><h3>The <code class="literal">"active-codepoint-list"</code> property</h3>
+<pre class="programlisting">  "active-codepoint-list"    <a class="link" href="McharmapCodepointList.html" title="McharmapCodepointList"><span class="type">McharmapCodepointList</span></a>*  : Read</pre>
+<p></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="McharmapCharmap--active-page"></a><h3>The <code class="literal">"active-page"</code> property</h3>
+<pre class="programlisting">  "active-page"              <a href="../glib/glib-Basic-Types.html#guint"><span class="type">guint</span></a>                 : Read / Write</pre>
+<p></p>
+<p>Default value: 0</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="McharmapCharmap--chapters-model"></a><h3>The <code class="literal">"chapters-model"</code> property</h3>
+<pre class="programlisting">  "chapters-model"           <a class="link" href="mcharmap-mcharmap-chapters-model.html#McharmapChaptersModel"><span class="type">McharmapChaptersModel</span></a>*  : Write / Construct</pre>
+<p></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="McharmapCharmap--font-desc"></a><h3>The <code class="literal">"font-desc"</code> property</h3>
+<pre class="programlisting">  "font-desc"                <a href="../pango/pango-Fonts.html#PangoFontDescription"><span class="type">PangoFontDescription</span></a>*  : Read / Write</pre>
+<p></p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="McharmapCharmap--snap-power-2"></a><h3>The <code class="literal">"snap-power-2"</code> property</h3>
+<pre class="programlisting">  "snap-power-2"             <a href="../glib/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a>              : Read / Write</pre>
+<p></p>
+<p>Default value: FALSE</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="mcharmap-mcharmap-charmap.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2">
+<a name="McharmapCharmap-link-clicked"></a><h3>The <code class="literal">"link-clicked"</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                user_function                      (<a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *mcharmapcharmap,
+                                                        <a href="../glib/glib-Basic-Types.html#guint"><span class="type">guint</span></a>            arg1,
+                                                        <a href="../glib/glib-Basic-Types.html#guint"><span class="type">guint</span></a>            arg2,
+                                                        <a href="../glib/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>         user_data)            : <a href="../gobject/gobject-Signals.html#G-SIGNAL-RUN-FIRST:CAPS"><code class="literal">Run First</code></a></pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>mcharmapcharmap</code></em> :</span></p></td>
+<td>the object which received the signal.</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="McharmapCharmap-status-message"></a><h3>The <code class="literal">"status-message"</code> signal</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                user_function                      (<a class="link" href="mcharmap-mcharmap-charmap.html#McharmapCharmap"><span class="type">McharmapCharmap</span></a> *mcharmapcharmap,
+                                                        <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a>           *arg1,
+                                                        <a href="../glib/glib-Basic-Types.html#gpointer"><span class="type">gpointer</span></a>         user_data)            : <a href="../gobject/gobject-Signals.html#G-SIGNAL-RUN-FIRST:CAPS"><code class="literal">Run First</code></a></pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>mcharmapcharmap</code></em> :</span></p></td>
+<td>the object which received the signal.</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.18</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+/*
+ * Copyright © 2004 Noah Levitt
+ * Copyright © 2008 Christian Persch
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the
+ * Free Software Foundation; either version 2 of the License, or (at your
+ * option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 59 Temple Place, Suite 330, Boston, MA 02110-1301  USA
+ */
+
+#ifndef MCHARMAP_H
+#define MCHARMAP_H
+
+#define __MCHARMAP_MCHARMAP_H_INSIDE__
+
+#define MCHARMAP_VERSION_MAJOR (@MCHARMAP_VERSION_MAJOR@)
+#define MCHARMAP_VERSION_MINOR (@MCHARMAP_VERSION_MINOR@)
+#define MCHARMAP_VERSION_MICRO (@MCHARMAP_VERSION_MICRO@)
+
+#define MCHARMAP_CHECK_VERSION(major,minor,micro) \
+  (MCHARMAP_VERSION_MAJOR > (major) || \
+   (MCHARMAP_VERSION_MAJOR == (major) && MCHARMAP_VERSION_MINOR > (minor)) || \
+   (MCHARMAP_VERSION_MAJOR == (major) && MCHARMAP_VERSION_MINOR == (minor) && MCHARMAP_VERSION_MICRO >= (micro)))
+
+#include <mcharmap/mcharmap-codepoint-list.h>
+#include <mcharmap/mcharmap-block-codepoint-list.h>
+#include <mcharmap/mcharmap-script-codepoint-list.h>
+
+#include <mcharmap/mcharmap-chapters-model.h>
+#include <mcharmap/mcharmap-block-chapters-model.h>
+#include <mcharmap/mcharmap-script-chapters-model.h>
+
+#include <mcharmap/mcharmap-chartable.h>
+#include <mcharmap/mcharmap-charmap.h>
+
+#include <mcharmap/mcharmap-type-builtins.h>
+
+#include <mcharmap/mcharmap-unicode-info.h>
+
+#undef __MCHARMAP_MCHARMAP_H_INSIDE__
+
+#endif /* #ifndef MCHARMAP_H */

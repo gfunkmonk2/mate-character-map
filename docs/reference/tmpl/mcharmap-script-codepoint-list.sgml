@@ -1,0 +1,73 @@
+<!-- ##### SECTION Title ##### -->
+McharmapScriptCodepointList
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT McharmapScriptCodepointListPrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT McharmapScriptCodepointList ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION mcharmap_script_codepoint_list_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION mcharmap_script_codepoint_list_set_script ##### -->
+<para>
+
+</para>
+
+@list: 
+@script: 
+@Returns: 
+
+
+<!-- ##### FUNCTION mcharmap_script_codepoint_list_set_scripts ##### -->
+<para>
+
+</para>
+
+@list: 
+@scripts: 
+@Returns: 
+
+
+<!-- ##### FUNCTION mcharmap_script_codepoint_list_append_script ##### -->
+<para>
+
+</para>
+
+@list: 
+@script: 
+@Returns: 
+
+

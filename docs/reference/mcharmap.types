@@ -1,0 +1,12 @@
+#include <config.h>
+#include <mcharmap/mcharmap.h>
+
+mcharmap_block_chapters_model_get_type
+mcharmap_block_codepoint_list_get_type
+mcharmap_chapters_model_get_type
+mcharmap_chapters_view_get_type
+mcharmap_charmap_get_type
+mcharmap_chartable_get_type
+mcharmap_codepoint_list_get_type
+mcharmap_script_chapters_model_get_type
+mcharmap_script_codepoint_list_get_type

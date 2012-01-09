@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>McharmapScriptCodepointList</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.2">
+<link rel="home" href="index.html" title="mcharmap Reference Manual">
+<link rel="up" href="ch01.html" title="[Insert title here]">
+<link rel="prev" href="McharmapScriptChaptersModel.html" title="McharmapScriptChaptersModel">
+<link rel="next" href="mcharmap-mcharmap-chapters-view.html" title="McharmapChaptersView">
+<meta name="generator" content="GTK-Doc V1.18 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="McharmapScriptChaptersModel.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">mcharmap Reference Manual</th>
+<td><a accesskey="n" href="mcharmap-mcharmap-chapters-view.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#mcharmap-mcharmap-script-codepoint-list.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#mcharmap-mcharmap-script-codepoint-list.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#mcharmap-mcharmap-script-codepoint-list.object-hierarchy" class="shortcut">Object Hierarchy</a>
+</td></tr>
+</table>
+<div class="refentry">
+<a name="mcharmap-mcharmap-script-codepoint-list"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="mcharmap-mcharmap-script-codepoint-list.top_of_page"></a>McharmapScriptCodepointList</span></h2>
+<p>McharmapScriptCodepointList</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="mcharmap-mcharmap-script-codepoint-list.synopsis"></a><h2>Synopsis</h2>
+<a name="McharmapScriptCodepointList"></a><pre class="synopsis">                    <a class="link" href="mcharmap-mcharmap-script-codepoint-list.html#McharmapScriptCodepointListPrivate" title="McharmapScriptCodepointListPrivate">McharmapScriptCodepointListPrivate</a>;
+struct              <a class="link" href="mcharmap-mcharmap-script-codepoint-list.html#McharmapScriptCodepointList-struct" title="struct McharmapScriptCodepointList">McharmapScriptCodepointList</a>;
+<a class="link" href="McharmapCodepointList.html" title="McharmapCodepointList"><span class="returnvalue">McharmapCodepointList</span></a> * <a class="link" href="mcharmap-mcharmap-script-codepoint-list.html#mcharmap-script-codepoint-list-new" title="mcharmap_script_codepoint_list_new ()">mcharmap_script_codepoint_list_new</a>
+                                                        (<em class="parameter"><code><span class="type">void</span></code></em>);
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="mcharmap-mcharmap-script-codepoint-list.html#mcharmap-script-codepoint-list-set-script" title="mcharmap_script_codepoint_list_set_script ()">mcharmap_script_codepoint_list_set_script</a>
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-script-codepoint-list.html#McharmapScriptCodepointList"><span class="type">McharmapScriptCodepointList</span></a> *list</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *script</code></em>);
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="mcharmap-mcharmap-script-codepoint-list.html#mcharmap-script-codepoint-list-set-scripts" title="mcharmap_script_codepoint_list_set_scripts ()">mcharmap_script_codepoint_list_set_scripts</a>
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-script-codepoint-list.html#McharmapScriptCodepointList"><span class="type">McharmapScriptCodepointList</span></a> *list</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **scripts</code></em>);
+<a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            <a class="link" href="mcharmap-mcharmap-script-codepoint-list.html#mcharmap-script-codepoint-list-append-script" title="mcharmap_script_codepoint_list_append_script ()">mcharmap_script_codepoint_list_append_script</a>
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-script-codepoint-list.html#McharmapScriptCodepointList"><span class="type">McharmapScriptCodepointList</span></a> *list</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *script</code></em>);
+</pre>
+</div>
+<div class="refsect1">
+<a name="mcharmap-mcharmap-script-codepoint-list.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a href="../gobject/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+   +----<a class="link" href="McharmapCodepointList.html" title="McharmapCodepointList">McharmapCodepointList</a>
+         +----McharmapScriptCodepointList
+</pre>
+</div>
+<div class="refsect1">
+<a name="mcharmap-mcharmap-script-codepoint-list.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1">
+<a name="mcharmap-mcharmap-script-codepoint-list.details"></a><h2>Details</h2>
+<div class="refsect2">
+<a name="McharmapScriptCodepointListPrivate"></a><h3>McharmapScriptCodepointListPrivate</h3>
+<pre class="programlisting">typedef struct _McharmapScriptCodepointListPrivate McharmapScriptCodepointListPrivate;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="McharmapScriptCodepointList-struct"></a><h3>struct McharmapScriptCodepointList</h3>
+<pre class="programlisting">struct McharmapScriptCodepointList;</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcharmap-script-codepoint-list-new"></a><h3>mcharmap_script_codepoint_list_new ()</h3>
+<pre class="programlisting"><a class="link" href="McharmapCodepointList.html" title="McharmapCodepointList"><span class="returnvalue">McharmapCodepointList</span></a> * mcharmap_script_codepoint_list_new
+                                                        (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<p>
+Creates a new script codepoint list. The default script is Latin.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>the newly-created <a class="link" href="McharmapCodepointList.html" title="McharmapCodepointList"><span class="type">McharmapCodepointList</span></a>. Use
+<a href="../gobject/gobject-The-Base-Object-Type.html#g-object-unref"><code class="function">g_object_unref()</code></a> to free the result.</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcharmap-script-codepoint-list-set-script"></a><h3>mcharmap_script_codepoint_list_set_script ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            mcharmap_script_codepoint_list_set_script
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-script-codepoint-list.html#McharmapScriptCodepointList"><span class="type">McharmapScriptCodepointList</span></a> *list</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *script</code></em>);</pre>
+<p>
+Sets the script for the codepoint list.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>list</code></em> :</span></p></td>
+<td>a McharmapScriptCodepointList</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>script</code></em> :</span></p></td>
+<td>the script name</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+<a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> on success, <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if there is no such script, in
+which case the script is not changed.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcharmap-script-codepoint-list-set-scripts"></a><h3>mcharmap_script_codepoint_list_set_scripts ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            mcharmap_script_codepoint_list_set_scripts
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-script-codepoint-list.html#McharmapScriptCodepointList"><span class="type">McharmapScriptCodepointList</span></a> *list</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> **scripts</code></em>);</pre>
+<p>
+Sets multiple scripts for the codepoint list. Codepoints are sorted
+according to their order in <em class="parameter"><code>scripts</code></em>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>list</code></em> :</span></p></td>
+<td>a McharmapScriptCodepointList</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>scripts</code></em> :</span></p></td>
+<td>NULL-terminated array of script names</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+<a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> on success, <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if any of the scripts don’t
+exist, in which case the script is not changed.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="mcharmap-script-codepoint-list-append-script"></a><h3>mcharmap_script_codepoint_list_append_script ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gboolean"><span class="returnvalue">gboolean</span></a>            mcharmap_script_codepoint_list_append_script
+                                                        (<em class="parameter"><code><a class="link" href="mcharmap-mcharmap-script-codepoint-list.html#McharmapScriptCodepointList"><span class="type">McharmapScriptCodepointList</span></a> *list</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *script</code></em>);</pre>
+<p>
+Appends the characters in <em class="parameter"><code>script</code></em> to the codepoint list.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>list</code></em> :</span></p></td>
+<td>a McharmapScriptCodepointList</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>script</code></em> :</span></p></td>
+<td>the script name</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+<a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> on success, <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a> if there is no such script, in
+which case the codepoint list is not changed.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.18</div>
+</body>
+</html>

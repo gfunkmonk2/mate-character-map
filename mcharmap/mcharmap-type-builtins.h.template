@@ -1,0 +1,28 @@
+/*** BEGIN file-header ***/
+#if !defined (__MCHARMAP_MCHARMAP_H_INSIDE__) && !defined (MCHARMAP_COMPILATION)
+#error "Only <mcharmap/mcharmap.h> can be included directly."
+#endif
+
+#ifndef MCHARMAP_TYPE_BUILTINS_H
+#define MCHARMAP_TYPE_BUILTINS_H
+
+#include <glib-object.h>
+
+G_BEGIN_DECLS
+/*** END file-header ***/
+
+/*** BEGIN file-production ***/
+
+/* enumerations from "@filename@" */
+/*** END file-production ***/
+
+/*** BEGIN value-header ***/
+GType @enum_name@_get_type (void);
+#define MCHARMAP_TYPE_@ENUMSHORT@ (@enum_name@_get_type ())
+/*** END value-header ***/
+
+/*** BEGIN file-tail ***/
+G_END_DECLS
+
+#endif /* !MCHARMAP_TYPE_BUILTINS_H */
+/*** END file-tail ***/

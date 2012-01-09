@@ -1,0 +1,90 @@
+<!-- ##### SECTION ./tmpl/mcharmap.sgml:Long_Description ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION ./tmpl/mcharmap.sgml:See_Also ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SECTION ./tmpl/mcharmap.sgml:Short_Description ##### -->
+
+
+
+<!-- ##### SECTION ./tmpl/mcharmap.sgml:Stability_Level ##### -->
+
+
+
+<!-- ##### SECTION ./tmpl/mcharmap.sgml:Title ##### -->
+mcharmap
+
+
+<!-- ##### MACRO MCHARMAP_CHECK_VERSION ##### -->
+<para>
+
+</para>
+
+@major: 
+@minor: 
+@micro: 
+
+<!-- ##### MACRO MCHARMAP_VERSION_MAJOR ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO MCHARMAP_VERSION_MICRO ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO MCHARMAP_VERSION_MINOR ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ENUM McharmapChaptersMode ##### -->
+<para>
+
+</para>
+
+@MCHARMAP_CHAPTERS_SCRIPT: 
+@MCHARMAP_CHAPTERS_BLOCK: 
+
+<!-- ##### ARG McharmapCharmap:orientation ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION mcharmap_charmap_set_font ##### -->
+<para>
+
+</para>
+
+@charmap: 
+@font_name: 
+
+<!-- ##### FUNCTION mcharmap_chartable_set_font ##### -->
+<para>
+
+</para>
+
+@chartable: 
+@font_name: 
+
+<!-- ##### FUNCTION mcharmap_codepoint_list_new ##### -->
+<para>
+
+</para>
+
+@start: 
+@end: 
+@Returns: 
+

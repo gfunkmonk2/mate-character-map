@@ -1,0 +1,185 @@
+<!-- ##### SECTION Title ##### -->
+McharmapCharmap
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT McharmapCharmapPrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT McharmapCharmap ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL McharmapCharmap::link-clicked ##### -->
+<para>
+
+</para>
+
+@mcharmapcharmap: the object which received the signal.
+@arg1: 
+@arg2: 
+
+<!-- ##### SIGNAL McharmapCharmap::status-message ##### -->
+<para>
+
+</para>
+
+@mcharmapcharmap: the object which received the signal.
+@arg1: 
+
+<!-- ##### ARG McharmapCharmap:active-chapter ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG McharmapCharmap:active-character ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG McharmapCharmap:active-codepoint-list ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG McharmapCharmap:active-page ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG McharmapCharmap:chapters-model ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG McharmapCharmap:font-desc ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG McharmapCharmap:snap-power-2 ##### -->
+<para>
+
+</para>
+
+<!-- ##### FUNCTION mcharmap_charmap_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION mcharmap_charmap_set_active_character ##### -->
+<para>
+
+</para>
+
+@charmap: 
+@uc: 
+
+
+<!-- ##### FUNCTION mcharmap_charmap_get_active_character ##### -->
+<para>
+
+</para>
+
+@charmap: 
+@Returns: 
+
+
+<!-- ##### FUNCTION mcharmap_charmap_set_active_chapter ##### -->
+<para>
+
+</para>
+
+@charmap: 
+@chapter: 
+
+
+<!-- ##### FUNCTION mcharmap_charmap_get_active_chapter ##### -->
+<para>
+
+</para>
+
+@charmap: 
+@Returns: 
+
+
+<!-- ##### FUNCTION mcharmap_charmap_set_font_desc ##### -->
+<para>
+
+</para>
+
+@charmap: 
+@font_desc: 
+
+
+<!-- ##### FUNCTION mcharmap_charmap_get_chartable ##### -->
+<para>
+
+</para>
+
+@charmap: 
+@Returns: 
+
+
+<!-- ##### FUNCTION mcharmap_charmap_get_chapters_view ##### -->
+<para>
+
+</para>
+
+@charmap: 
+@Returns: 
+
+
+<!-- ##### FUNCTION mcharmap_charmap_set_chapters_model ##### -->
+<para>
+
+</para>
+
+@charmap: 
+@model: 
+
+
+<!-- ##### FUNCTION mcharmap_charmap_get_chapters_model ##### -->
+<para>
+
+</para>
+
+@charmap: 
+@Returns: 
+
+
+<!-- ##### FUNCTION mcharmap_charmap_get_book_codepoint_list ##### -->
+<para>
+
+</para>
+
+@charmap: 
+@Returns: 
+
+

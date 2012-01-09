@@ -1,0 +1,193 @@
+<!-- ##### SECTION Title ##### -->
+McharmapChartable
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT McharmapChartablePrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT McharmapChartable ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### SIGNAL McharmapChartable::activate ##### -->
+<para>
+
+</para>
+
+@mcharmapchartable: the object which received the signal.
+
+<!-- ##### SIGNAL McharmapChartable::copy-clipboard ##### -->
+<para>
+
+</para>
+
+@mcharmapchartable: the object which received the signal.
+
+<!-- ##### SIGNAL McharmapChartable::move-cursor ##### -->
+<para>
+
+</para>
+
+@mcharmapchartable: the object which received the signal.
+@arg1: 
+@arg2: 
+@Returns: 
+
+<!-- ##### SIGNAL McharmapChartable::paste-clipboard ##### -->
+<para>
+
+</para>
+
+@mcharmapchartable: the object which received the signal.
+
+<!-- ##### SIGNAL McharmapChartable::set-scroll-adjustments ##### -->
+<para>
+
+</para>
+
+@mcharmapchartable: the object which received the signal.
+@arg1: 
+@arg2: 
+
+<!-- ##### SIGNAL McharmapChartable::status-message ##### -->
+<para>
+
+</para>
+
+@mcharmapchartable: the object which received the signal.
+@arg1: 
+
+<!-- ##### ARG McharmapChartable:active-character ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG McharmapChartable:codepoint-list ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG McharmapChartable:font-desc ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG McharmapChartable:snap-power-2 ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG McharmapChartable:zoom-enabled ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG McharmapChartable:zoom-showing ##### -->
+<para>
+
+</para>
+
+<!-- ##### FUNCTION mcharmap_chartable_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION mcharmap_chartable_set_font_desc ##### -->
+<para>
+
+</para>
+
+@chartable: 
+@font_desc: 
+
+
+<!-- ##### FUNCTION mcharmap_chartable_get_active_character ##### -->
+<para>
+
+</para>
+
+@chartable: 
+@Returns: 
+
+
+<!-- ##### FUNCTION mcharmap_chartable_set_active_character ##### -->
+<para>
+
+</para>
+
+@chartable: 
+@uc: 
+
+
+<!-- ##### FUNCTION mcharmap_chartable_set_zoom_enabled ##### -->
+<para>
+
+</para>
+
+@chartable: 
+@enabled: 
+
+
+<!-- ##### FUNCTION mcharmap_chartable_get_zoom_enabled ##### -->
+<para>
+
+</para>
+
+@chartable: 
+@Returns: 
+
+
+<!-- ##### FUNCTION mcharmap_chartable_set_snap_pow2 ##### -->
+<para>
+
+</para>
+
+@chartable: 
+@snap: 
+
+
+<!-- ##### FUNCTION mcharmap_chartable_set_codepoint_list ##### -->
+<para>
+
+</para>
+
+@chartable: 
+@list: 
+
+
+<!-- ##### FUNCTION mcharmap_chartable_get_codepoint_list ##### -->
+<para>
+
+</para>
+
+@chartable: 
+@Returns: 
+
+

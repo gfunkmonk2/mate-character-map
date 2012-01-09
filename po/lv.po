@@ -1,0 +1,1191 @@
+# translation of lv.po to Latvian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Linux Centrs <info@linux.edu.lv>, 2006.
+# Janis Ritmanis <eziitiss@gmail.com>, 2006.
+# Raivis Dejus <orvils@gmail.com>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: lv\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-08-24 17:12+0300\n"
+"PO-Revision-Date: 2006-08-24 17:14+0300\n"
+"Last-Translator: Raivis Dejus <orvils@gmail.com>\n"
+"Language-Team: Latvian <locale@laka.lv>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+#: ../mcharmap.desktop.in.h:1 ../mcharmap/mcharmap-window.c:837
+msgid "Character Map"
+msgstr "Rakstzīmju tabula"
+
+#: ../mcharmap.desktop.in.h:2
+msgid "Insert special characters into documents"
+msgstr "Ievietot īpašas rakstzīmes dokumentā"
+
+#: ../mcharmap/mcharmap-charmap.c:268
+msgid "Canonical decomposition:"
+msgstr "Kanoniska dekompozīcija:"
+
+#: ../mcharmap/mcharmap-charmap.c:309 ../mcharmap/mcharmap-table.c:294
+msgid "[not a printable character]"
+msgstr "[nedrukājama rakstzīme]"
+
+#: ../mcharmap/mcharmap-charmap.c:323
+msgid "General Character Properties"
+msgstr "Vispārējas rakstzīmju īpašības"
+
+#. character category
+#: ../mcharmap/mcharmap-charmap.c:326
+msgid "Unicode category:"
+msgstr "Unicode kategorija:"
+
+#: ../mcharmap/mcharmap-charmap.c:335
+msgid "Various Useful Representations"
+msgstr "Dažādi noderīgi attēlojumi"
+
+#: ../mcharmap/mcharmap-charmap.c:345
+msgid "UTF-8:"
+msgstr "UTF-8:"
+
+#: ../mcharmap/mcharmap-charmap.c:353
+msgid "UTF-16:"
+msgstr "UTF-16:"
+
+#: ../mcharmap/mcharmap-charmap.c:364
+msgid "C octal escaped UTF-8:"
+msgstr "C oktālais atsoļa UTF-8:"
+
+#: ../mcharmap/mcharmap-charmap.c:374
+msgid "XML decimal entity:"
+msgstr "XML decimālais ieraksts:"
+
+#: ../mcharmap/mcharmap-charmap.c:385
+msgid "Annotations and Cross References"
+msgstr "Anotācijas un saistītās atsauces"
+
+#: ../mcharmap/mcharmap-charmap.c:392
+msgid "Alias names:"
+msgstr "Aizstājējvārdi:"
+
+#: ../mcharmap/mcharmap-charmap.c:401
+msgid "Notes:"
+msgstr "Piezīmes:"
+
+#: ../mcharmap/mcharmap-charmap.c:410
+msgid "See also:"
+msgstr "Skatīt arī:"
+
+#: ../mcharmap/mcharmap-charmap.c:419
+msgid "Approximate equivalents:"
+msgstr "Caurmērā līdzvērtgs:"
+
+#: ../mcharmap/mcharmap-charmap.c:428
+msgid "Equivalents:"
+msgstr "Līdzvērtgs:"
+
+#: ../mcharmap/mcharmap-charmap.c:444
+msgid "CJK Ideograph Information"
+msgstr "CJK ideogrāfiskā informācija"
+
+#: ../mcharmap/mcharmap-charmap.c:449
+msgid "Definition in English:"
+msgstr "Definīcija angliski:"
+
+#: ../mcharmap/mcharmap-charmap.c:454
+msgid "Mandarin Pronunciation:"
+msgstr "Mandarīnu izruna:"
+
+#: ../mcharmap/mcharmap-charmap.c:459
+msgid "Cantonese Pronunciation:"
+msgstr "Kantoniešu izruna:"
+
+#: ../mcharmap/mcharmap-charmap.c:464
+msgid "Japanese On Pronunciation:"
+msgstr "Japāņu On izruna:"
+
+#: ../mcharmap/mcharmap-charmap.c:469
+msgid "Japanese Kun Pronunciation:"
+msgstr "Japāņu Kun izruna:"
+
+#: ../mcharmap/mcharmap-charmap.c:474
+msgid "Tang Pronunciation:"
+msgstr "Tang izruna:"
+
+#: ../mcharmap/mcharmap-charmap.c:479
+msgid "Korean Pronunciation:"
+msgstr "Korejiešu izruna:"
+
+#: ../mcharmap/mcharmap-charmap.c:780
+msgid "Characte_r Table"
+msgstr "Rakstzīmj_u tabula"
+
+#: ../mcharmap/mcharmap-charmap.c:783
+msgid "Character _Details"
+msgstr "Rakstzīmju _detaļas"
+
+#: ../mcharmap/mcharmap-mini-fontsel.c:205
+msgid "Font"
+msgstr "Fonts"
+
+#: ../mcharmap/mcharmap-mini-fontsel.c:212
+msgid "Font Family"
+msgstr "Fonta saime"
+
+#: ../mcharmap/mcharmap-mini-fontsel.c:232
+msgid "Font Size"
+msgstr "Fonta izmērs"
+
+#. Unicode assigns "Common" as the script name for any character not
+#. * specifically listed in Scripts.txt
+#: ../mcharmap/mcharmap-script-codepoint-list.c:458
+#: ../mcharmap/unicode-scripts.h:26
+msgid "Common"
+msgstr "Kopīgs"
+
+#: ../mcharmap/mcharmap-table.c:1513
+msgid "Unknown character, unable to identify."
+msgstr "Nezināma rakstzīme, nevar identificēt."
+
+#: ../mcharmap/mcharmap-table.c:1515
+#: ../mcharmap/mcharmap-search-dialog.c:595
+msgid "Not found."
+msgstr "Nav atrasts."
+
+#: ../mcharmap/mcharmap-table.c:1518
+msgid "Character found."
+msgstr "Rakstzīme atrasta."
+
+#: ../mcharmap/mcharmap-table.c:1582
+msgid "Character Table"
+msgstr "Rakstzīmju tabula"
+
+#: ../mcharmap/mcharmap-unicode-info.c:96
+msgid "<Non Private Use High Surrogate>"
+msgstr "<Neprivātas lietošanas zems aizstājējs>"
+
+#: ../mcharmap/mcharmap-unicode-info.c:98
+msgid "<Private Use High Surrogate>"
+msgstr "<Privatas izmantošanas augsts aizstājējs>"
+
+#: ../mcharmap/mcharmap-unicode-info.c:100
+msgid "<Low Surrogate>"
+msgstr "<Zems aizstājējs>"
+
+#: ../mcharmap/mcharmap-unicode-info.c:102
+msgid "<Private Use>"
+msgstr "<Privāta lietošana>"
+
+#: ../mcharmap/mcharmap-unicode-info.c:104
+msgid "<Plane 15 Private Use>"
+msgstr "<Plāksne 15 privātai lietošanai>"
+
+#: ../mcharmap/mcharmap-unicode-info.c:106
+msgid "<Plane 16 Private Use>"
+msgstr "<Plāksne 16 privātai lietošanai>"
+
+#: ../mcharmap/mcharmap-unicode-info.c:111
+msgid "<not assigned>"
+msgstr "<nav piešķirts>"
+
+#: ../mcharmap/mcharmap-unicode-info.c:124
+msgid "Other, Control"
+msgstr "Cits, kontrole"
+
+#: ../mcharmap/mcharmap-unicode-info.c:125
+msgid "Other, Format"
+msgstr "Cits, formāts"
+
+#: ../mcharmap/mcharmap-unicode-info.c:126
+msgid "Other, Not Assigned"
+msgstr "Cits, nav piešķirts"
+
+#: ../mcharmap/mcharmap-unicode-info.c:127
+msgid "Other, Private Use"
+msgstr "Cits, privāta izmantošana"
+
+#: ../mcharmap/mcharmap-unicode-info.c:128
+msgid "Other, Surrogate"
+msgstr "Cits, aizstājējs"
+
+#: ../mcharmap/mcharmap-unicode-info.c:129
+msgid "Letter, Lowercase"
+msgstr "Burts, mazie burti"
+
+#: ../mcharmap/mcharmap-unicode-info.c:130
+msgid "Letter, Modifier"
+msgstr "Burts, modifikators"
+
+#: ../mcharmap/mcharmap-unicode-info.c:131
+msgid "Letter, Other"
+msgstr "Burts, cits"
+
+#: ../mcharmap/mcharmap-unicode-info.c:132
+msgid "Letter, Titlecase"
+msgstr "Burts, titula burti"
+
+#: ../mcharmap/mcharmap-unicode-info.c:133
+msgid "Letter, Uppercase"
+msgstr "Burts, lielie burti"
+
+#: ../mcharmap/mcharmap-unicode-info.c:134
+msgid "Mark, Spacing Combining"
+msgstr "Atzīmēt, atstarpju kombinēšana"
+
+#: ../mcharmap/mcharmap-unicode-info.c:135
+msgid "Mark, Enclosing"
+msgstr "Atzīmēt, iekļauto"
+
+#: ../mcharmap/mcharmap-unicode-info.c:136
+msgid "Mark, Non-Spacing"
+msgstr "Atzīmēt, bez atstarpēm"
+
+#: ../mcharmap/mcharmap-unicode-info.c:137
+msgid "Number, Decimal Digit"
+msgstr "Numurs, decimāls cipars"
+
+#: ../mcharmap/mcharmap-unicode-info.c:138
+msgid "Number, Letter"
+msgstr "Numurs, burts"
+
+#: ../mcharmap/mcharmap-unicode-info.c:139
+msgid "Number, Other"
+msgstr "Numurs, cits"
+
+#: ../mcharmap/mcharmap-unicode-info.c:140
+msgid "Punctuation, Connector"
+msgstr "Interpunkcija, savienotājs"
+
+#: ../mcharmap/mcharmap-unicode-info.c:141
+msgid "Punctuation, Dash"
+msgstr "Interpunkcija, domuzīme"
+
+#: ../mcharmap/mcharmap-unicode-info.c:142
+msgid "Punctuation, Close"
+msgstr "Interpunkcija, aizvērt"
+
+#: ../mcharmap/mcharmap-unicode-info.c:143
+msgid "Punctuation, Final Quote"
+msgstr "Interpunkcija, beigu pēdiņas"
+
+#: ../mcharmap/mcharmap-unicode-info.c:144
+msgid "Punctuation, Initial Quote"
+msgstr "Interpunkcija, sākuma pēdiņas"
+
+#: ../mcharmap/mcharmap-unicode-info.c:145
+msgid "Punctuation, Other"
+msgstr "Interpunkcija, cits"
+
+#: ../mcharmap/mcharmap-unicode-info.c:146
+msgid "Punctuation, Open"
+msgstr "Interpunkcija, atvērt"
+
+#: ../mcharmap/mcharmap-unicode-info.c:147
+msgid "Symbol, Currency"
+msgstr "Simbols, valūta"
+
+#: ../mcharmap/mcharmap-unicode-info.c:148
+msgid "Symbol, Modifier"
+msgstr "Simbols, modifikators"
+
+#: ../mcharmap/mcharmap-unicode-info.c:149
+msgid "Symbol, Math"
+msgstr "Simbols, matemātisks"
+
+#: ../mcharmap/mcharmap-unicode-info.c:150
+msgid "Symbol, Other"
+msgstr "Simbols, cits"
+
+#: ../mcharmap/mcharmap-unicode-info.c:151
+msgid "Separator, Line"
+msgstr "Atdalītājs, līnija"
+
+#: ../mcharmap/mcharmap-unicode-info.c:152
+msgid "Separator, Paragraph"
+msgstr "Atdalītājs, rindkopa"
+
+#: ../mcharmap/mcharmap-unicode-info.c:153
+msgid "Separator, Space"
+msgstr "Atdalītājs, atstarpe"
+
+#: ../mcharmap/mcharmap-window.c:188
+msgid "Searching..."
+msgstr "Meklē..."
+
+#: ../mcharmap/mcharmap-window.c:337
+msgid ""
+"Mcharmap is free software; you can redistribute it and/or modify it under "
+"the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"Gu-zīmju tabula ir brīva programmatūra, jūs varat to izplatīt un/vai "
+"modificēt saskaņā ar GNU Vispārējās publiskās brīvās licenses noteikumiem "
+"Programmatūras pamatojoties uz licences 2. versiju vai jebkuru vecāku "
+"versiju."
+
+#: ../mcharmap/mcharmap-window.c:341
+msgid ""
+"Permission is hereby granted, free of charge, to any person obtaining a copy "
+"of the Unicode data files to deal in them without restriction, including "
+"without limitation the rights to use, copy, modify, merge, publish, "
+"distribute, and/or sell copies."
+msgstr ""
+"Līdz ar šo jebkurai personai, kas ieguvusi Unicode datu failus, tiek dota "
+"bezmaksas atļauja rīkoties ar tiem bez ierobežojumiem, ieskaitot tiesības "
+"izmantot, kopēt, pārveidot, apvienot, publicēt, izpaltīt, un/vai pārdot "
+"kopijas."
+
+#: ../mcharmap/mcharmap-window.c:345
+msgid ""
+"Mcharmap and the Unicode data files are distributed in the hope that they "
+"will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty "
+"of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+"Public License and Unicode Copyright for more details."
+msgstr ""
+"Gu-zīmju tabulaa un Unicode datu faili tiek izplatīti cerībā, ka tie būs "
+"noderīgi, bet BEZ JEBKĀDAS GARANTIJAS; pat bez ietvertas KOMERCDARBĪBAS vai "
+"ATBILSTĪBAS TĀS KONKRĒTAM MĒRĶIM. Plašākai informācijai skatīt GNU Vispārējo "
+"publisko licensi un Unicode autortiesības."
+
+#: ../mcharmap/mcharmap-window.c:349
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Mcharmap; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA  02111-1307  USA"
+msgstr ""
+"Jums vajadzētu būt saņemtai GNU Vispārējās publiskās licenses kopiju kopā ar "
+"Gu-zīmju tabulu, ja nē, rakstiet uz: Free Software Foundation, Inc., 59 "
+"Temple Place, Suite 330, Boston, MA  02111-1307  USA"
+
+#: ../mcharmap/mcharmap-window.c:352
+msgid ""
+"Also you should have received a copy of the Unicode Copyright along with "
+"Mcharmap; you can always find it at Unicode's website: http://www.unicode."
+"org/copyright.html"
+msgstr ""
+"Jums vajadzētu būt saņemtām Unicode autortiesību kopijai līdz ar Gu-zīmju "
+"tabulu; jūs tās vienmēr varat atrast Unicode mājaslapā: http://www.unicode."
+"org/copyright.html"
+
+#: ../mcharmap/mcharmap-window.c:363
+msgid ""
+"MATE Character Map\n"
+"based on the Unicode Character Database"
+msgstr ""
+"MATE Rakstzīmju tabula\n"
+"veidota uz Unicode rakstzīmju datubāzes"
+
+#: ../mcharmap/mcharmap-window.c:369 ../mcharmap/main.c:76
+msgid "Mcharmap"
+msgstr "Gu-zīmju tabula"
+
+#: ../mcharmap/mcharmap-window.c:371
+msgid "translator-credits"
+msgstr "tulkotāji"
+
+#: ../mcharmap/mcharmap-window.c:486
+msgid "_File"
+msgstr "_Fails"
+
+#: ../mcharmap/mcharmap-window.c:487
+msgid "_View"
+msgstr "_Skats"
+
+#: ../mcharmap/mcharmap-window.c:488
+msgid "_Search"
+msgstr "_Meklēt"
+
+#: ../mcharmap/mcharmap-window.c:489
+msgid "_Go"
+msgstr "_Doties"
+
+#: ../mcharmap/mcharmap-window.c:490
+msgid "_Help"
+msgstr "_Palīdzība"
+
+#: ../mcharmap/mcharmap-window.c:492
+msgid "_Quit"
+msgstr "_Atstāt"
+
+#: ../mcharmap/mcharmap-window.c:495
+msgid "Zoom _In"
+msgstr "fokusēt _tuvāk"
+
+#: ../mcharmap/mcharmap-window.c:497
+msgid "Zoom _Out"
+msgstr "Fokusēt _ārpus"
+
+#: ../mcharmap/mcharmap-window.c:499
+msgid "_Normal Size"
+msgstr "_Normāls Izmērs"
+
+#: ../mcharmap/mcharmap-window.c:502
+msgid "_Find..."
+msgstr "_Meklēt..."
+
+#: ../mcharmap/mcharmap-window.c:504
+msgid "Find _Next"
+msgstr "Meklēt _nākamo"
+
+#: ../mcharmap/mcharmap-window.c:506
+msgid "Find _Previous"
+msgstr "Meklēt _iepriekšējo"
+
+#: ../mcharmap/mcharmap-window.c:509
+msgid "_Next Character"
+msgstr "_Nākamais simbols"
+
+#: ../mcharmap/mcharmap-window.c:511
+msgid "_Previous Character"
+msgstr "_Iepriekšējais simbols"
+
+#: ../mcharmap/mcharmap-window.c:513
+msgid "Next Script"
+msgstr "Nākamais skripts"
+
+#: ../mcharmap/mcharmap-window.c:515
+msgid "Previous Script"
+msgstr "Iepriekšējais skripts"
+
+#: ../mcharmap/mcharmap-window.c:519
+msgid "_Contents"
+msgstr "_Saturs"
+
+#: ../mcharmap/mcharmap-window.c:522
+msgid "_About"
+msgstr "_Par"
+
+#: ../mcharmap/mcharmap-window.c:528
+msgid "By _Script"
+msgstr "Pēc _skripta"
+
+#: ../mcharmap/mcharmap-window.c:530
+msgid "By _Unicode Block"
+msgstr "Pēc _Unicode bloka"
+
+#: ../mcharmap/mcharmap-window.c:594
+msgid "Snap Columns to Power of Two"
+msgstr "Piesaistīt kolonas divnieka pakāpēm"
+
+#: ../mcharmap/mcharmap-window.c:727
+msgid "_Text to copy:"
+msgstr "_Teksts, ko kopēt:"
+
+#: ../mcharmap/mcharmap-window.c:748
+msgid "Copy to the clipboard."
+msgstr "Kopēt starpliktuvē."
+
+#: ../mcharmap/main.c:36
+msgid "Font to start with; ex: 'Serif 27'"
+msgstr "Fonts ar ko sākt, piem., 'Serif 27'"
+
+#: ../mcharmap/unicode-blocks.h:20
+msgid "Basic Latin"
+msgstr "Pamata latīņu"
+
+#: ../mcharmap/unicode-blocks.h:21
+msgid "Latin-1 Supplement"
+msgstr "Latīņu-1 pielikums"
+
+#: ../mcharmap/unicode-blocks.h:22
+msgid "Latin Extended-A"
+msgstr "Latīņu paplašinātais-A"
+
+#: ../mcharmap/unicode-blocks.h:23
+msgid "Latin Extended-B"
+msgstr "Latīņu paplašinātais-B"
+
+#: ../mcharmap/unicode-blocks.h:24
+msgid "IPA Extensions"
+msgstr "IPA paplašinājumi"
+
+#: ../mcharmap/unicode-blocks.h:25
+msgid "Spacing Modifier Letters"
+msgstr "Modificējošo zīmju izlīdzināšana"
+
+#: ../mcharmap/unicode-blocks.h:26
+msgid "Combining Diacritical Marks"
+msgstr "Diakritrisko zīmju kombinēšana"
+
+#: ../mcharmap/unicode-blocks.h:27
+msgid "Greek and Coptic"
+msgstr "Grieķu un Koptu"
+
+#: ../mcharmap/unicode-blocks.h:28 ../mcharmap/unicode-scripts.h:30
+msgid "Cyrillic"
+msgstr "Kirilisks"
+
+#: ../mcharmap/unicode-blocks.h:29
+msgid "Cyrillic Supplement"
+msgstr "Kirilicas pielikums"
+
+#: ../mcharmap/unicode-blocks.h:30 ../mcharmap/unicode-scripts.h:17
+msgid "Armenian"
+msgstr "Armēņu"
+
+#: ../mcharmap/unicode-blocks.h:31 ../mcharmap/unicode-scripts.h:43
+msgid "Hebrew"
+msgstr "Ebreju"
+
+#: ../mcharmap/unicode-blocks.h:32 ../mcharmap/unicode-scripts.h:16
+msgid "Arabic"
+msgstr "Arābu"
+
+#: ../mcharmap/unicode-blocks.h:33 ../mcharmap/unicode-scripts.h:70
+msgid "Syriac"
+msgstr "Sīriešu"
+
+#: ../mcharmap/unicode-blocks.h:34
+msgid "Arabic Supplement"
+msgstr "Arābu pielikums"
+
+#: ../mcharmap/unicode-blocks.h:35 ../mcharmap/unicode-scripts.h:76
+msgid "Thaana"
+msgstr "Thānas"
+
+#: ../mcharmap/unicode-blocks.h:36
+msgid "NKo"
+msgstr "NKo"
+
+#: ../mcharmap/unicode-blocks.h:37 ../mcharmap/unicode-scripts.h:32
+msgid "Devanagari"
+msgstr "Devangari"
+
+#: ../mcharmap/unicode-blocks.h:38 ../mcharmap/unicode-scripts.h:19
+msgid "Bengali"
+msgstr "Bengāļu"
+
+#: ../mcharmap/unicode-blocks.h:39 ../mcharmap/unicode-scripts.h:39
+msgid "Gurmukhi"
+msgstr "Gurmuku"
+
+#: ../mcharmap/unicode-blocks.h:40 ../mcharmap/unicode-scripts.h:38
+msgid "Gujarati"
+msgstr "Gudžaratu"
+
+#: ../mcharmap/unicode-blocks.h:41 ../mcharmap/unicode-scripts.h:62
+msgid "Oriya"
+msgstr "Orija"
+
+#: ../mcharmap/unicode-blocks.h:42 ../mcharmap/unicode-scripts.h:74
+msgid "Tamil"
+msgstr "Tamilas"
+
+#: ../mcharmap/unicode-blocks.h:43 ../mcharmap/unicode-scripts.h:75
+msgid "Telugu"
+msgstr "Telugu"
+
+#: ../mcharmap/unicode-blocks.h:44 ../mcharmap/unicode-scripts.h:46
+msgid "Kannada"
+msgstr "Kannadas"
+
+#: ../mcharmap/unicode-blocks.h:45 ../mcharmap/unicode-scripts.h:54
+msgid "Malayalam"
+msgstr "Malaiziešu"
+
+#: ../mcharmap/unicode-blocks.h:46 ../mcharmap/unicode-scripts.h:68
+msgid "Sinhala"
+msgstr "Sinhāliešu"
+
+#: ../mcharmap/unicode-blocks.h:47 ../mcharmap/unicode-scripts.h:77
+msgid "Thai"
+msgstr "Taizemes"
+
+#: ../mcharmap/unicode-blocks.h:48 ../mcharmap/unicode-scripts.h:50
+msgid "Lao"
+msgstr "Laosas"
+
+#: ../mcharmap/unicode-blocks.h:49 ../mcharmap/unicode-scripts.h:78
+msgid "Tibetan"
+msgstr "Tibetiešu"
+
+#: ../mcharmap/unicode-blocks.h:50 ../mcharmap/unicode-scripts.h:56
+msgid "Myanmar"
+msgstr "Mjanmas"
+
+#: ../mcharmap/unicode-blocks.h:51 ../mcharmap/unicode-scripts.h:34
+msgid "Georgian"
+msgstr "Gruzīņu"
+
+#: ../mcharmap/unicode-blocks.h:52
+msgid "Hangul Jamo"
+msgstr "Hangulas džamo"
+
+#: ../mcharmap/unicode-blocks.h:53 ../mcharmap/unicode-scripts.h:33
+msgid "Ethiopic"
+msgstr "Etiopiešu"
+
+#: ../mcharmap/unicode-blocks.h:54
+msgid "Ethiopic Supplement"
+msgstr "Etiopiešu pielikums"
+
+#: ../mcharmap/unicode-blocks.h:55 ../mcharmap/unicode-scripts.h:25
+msgid "Cherokee"
+msgstr "Čerokī"
+
+#: ../mcharmap/unicode-blocks.h:56
+msgid "Unified Canadian Aboriginal Syllabics"
+msgstr "Vienotās Kanādas iezemiešu zilbes"
+
+#: ../mcharmap/unicode-blocks.h:57 ../mcharmap/unicode-scripts.h:59
+msgid "Ogham"
+msgstr "Oghamu"
+
+#: ../mcharmap/unicode-blocks.h:58 ../mcharmap/unicode-scripts.h:66
+msgid "Runic"
+msgstr "Rūnu"
+
+#: ../mcharmap/unicode-blocks.h:59 ../mcharmap/unicode-scripts.h:71
+msgid "Tagalog"
+msgstr "Tagalogu"
+
+#: ../mcharmap/unicode-blocks.h:60 ../mcharmap/unicode-scripts.h:42
+msgid "Hanunoo"
+msgstr "Hanunū"
+
+#: ../mcharmap/unicode-blocks.h:61 ../mcharmap/unicode-scripts.h:23
+msgid "Buhid"
+msgstr "Buhidu"
+
+#: ../mcharmap/unicode-blocks.h:62 ../mcharmap/unicode-scripts.h:72
+msgid "Tagbanwa"
+msgstr "Tagbanva"
+
+#: ../mcharmap/unicode-blocks.h:63 ../mcharmap/unicode-scripts.h:49
+msgid "Khmer"
+msgstr "Khmeru"
+
+#: ../mcharmap/unicode-blocks.h:64 ../mcharmap/unicode-scripts.h:55
+msgid "Mongolian"
+msgstr "Mongoļu"
+
+#: ../mcharmap/unicode-blocks.h:65 ../mcharmap/unicode-scripts.h:52
+msgid "Limbu"
+msgstr "Limbu"
+
+#: ../mcharmap/unicode-blocks.h:66 ../mcharmap/unicode-scripts.h:73
+msgid "Tai Le"
+msgstr "Tai Le"
+
+#: ../mcharmap/unicode-blocks.h:67 ../mcharmap/unicode-scripts.h:57
+msgid "New Tai Lue"
+msgstr "Jaunais Tai Lue"
+
+#: ../mcharmap/unicode-blocks.h:68
+msgid "Khmer Symbols"
+msgstr "Khmeru simboli"
+
+#: ../mcharmap/unicode-blocks.h:69 ../mcharmap/unicode-scripts.h:22
+msgid "Buginese"
+msgstr "Buginiešu"
+
+#: ../mcharmap/unicode-blocks.h:70 ../mcharmap/unicode-scripts.h:18
+msgid "Balinese"
+msgstr "Buginiešu"
+
+#: ../mcharmap/unicode-blocks.h:71
+msgid "Phonetic Extensions"
+msgstr "Fonētiskie paplašinājumi"
+
+#: ../mcharmap/unicode-blocks.h:72
+msgid "Phonetic Extensions Supplement"
+msgstr "Fonētisko paplašinājumu pielikums"
+
+#: ../mcharmap/unicode-blocks.h:73
+msgid "Combining Diacritical Marks Supplement"
+msgstr "Papildus diakritrisko zīmju kombinēšana"
+
+#: ../mcharmap/unicode-blocks.h:74
+msgid "Latin Extended Additional"
+msgstr "Papildus latīņu paplašinātais "
+
+#: ../mcharmap/unicode-blocks.h:75
+msgid "Greek Extended"
+msgstr "Grieķu paplašinātais"
+
+#: ../mcharmap/unicode-blocks.h:76
+msgid "General Punctuation"
+msgstr "Vispārējā interpunkcija"
+
+#: ../mcharmap/unicode-blocks.h:77
+msgid "Superscripts and Subscripts"
+msgstr "Augšraksti un apakšraksti"
+
+#: ../mcharmap/unicode-blocks.h:78
+msgid "Currency Symbols"
+msgstr "Valūtas simboli"
+
+#: ../mcharmap/unicode-blocks.h:79
+msgid "Combining Diacritical Marks for Symbols"
+msgstr "Diakritrisko zīmju kombinēšana simboliem"
+
+#: ../mcharmap/unicode-blocks.h:80
+msgid "Letterlike Symbols"
+msgstr "Burtveidīgie simboli"
+
+#: ../mcharmap/unicode-blocks.h:81
+msgid "Number Forms"
+msgstr "Skaitļu formas"
+
+#: ../mcharmap/unicode-blocks.h:82
+msgid "Arrows"
+msgstr "Bultas"
+
+#: ../mcharmap/unicode-blocks.h:83
+msgid "Mathematical Operators"
+msgstr "Matemātiske operatori"
+
+#: ../mcharmap/unicode-blocks.h:84
+msgid "Miscellaneous Technical"
+msgstr "Dažādi tehniskie"
+
+#: ../mcharmap/unicode-blocks.h:85
+msgid "Control Pictures"
+msgstr "Vadīt bildes"
+
+#: ../mcharmap/unicode-blocks.h:86
+msgid "Optical Character Recognition"
+msgstr "Optiskā zīmju atpazīšana"
+
+#: ../mcharmap/unicode-blocks.h:87
+msgid "Enclosed Alphanumerics"
+msgstr "Apvilktie burtu-ciparu simboli"
+
+#: ../mcharmap/unicode-blocks.h:88
+msgid "Box Drawing"
+msgstr "Kuba zīmēšana"
+
+#: ../mcharmap/unicode-blocks.h:89
+msgid "Block Elements"
+msgstr "Bloku elementi"
+
+#: ../mcharmap/unicode-blocks.h:90
+msgid "Geometric Shapes"
+msgstr "Ģeometriskas figūras"
+
+#: ../mcharmap/unicode-blocks.h:91
+msgid "Miscellaneous Symbols"
+msgstr "Dažādi simboli"
+
+#: ../mcharmap/unicode-blocks.h:92
+msgid "Dingbats"
+msgstr "Dekorzīmes"
+
+#: ../mcharmap/unicode-blocks.h:93
+msgid "Miscellaneous Mathematical Symbols-A"
+msgstr "Dažādi matemātiskie simboli A"
+
+#: ../mcharmap/unicode-blocks.h:94
+msgid "Supplemental Arrows-A"
+msgstr "Papildus bultas A"
+
+#: ../mcharmap/unicode-blocks.h:95
+msgid "Braille Patterns"
+msgstr "Braila paraugi"
+
+#: ../mcharmap/unicode-blocks.h:96
+msgid "Supplemental Arrows-B"
+msgstr "Papildus bultas B"
+
+#: ../mcharmap/unicode-blocks.h:97
+msgid "Miscellaneous Mathematical Symbols-B"
+msgstr "Dažādi matemātiskie simboli B"
+
+#: ../mcharmap/unicode-blocks.h:98
+msgid "Supplemental Mathematical Operators"
+msgstr "Matemātisko operatoru pielikums"
+
+#: ../mcharmap/unicode-blocks.h:99
+msgid "Miscellaneous Symbols and Arrows"
+msgstr "Dažādi simboli un bultas"
+
+#: ../mcharmap/unicode-blocks.h:100 ../mcharmap/unicode-scripts.h:35
+msgid "Glagolitic"
+msgstr "Glagoltic"
+
+#: ../mcharmap/unicode-blocks.h:101
+msgid "Latin Extended-C"
+msgstr "Latīņu paplašinātais-C"
+
+#: ../mcharmap/unicode-blocks.h:102 ../mcharmap/unicode-scripts.h:27
+msgid "Coptic"
+msgstr "Koptu"
+
+#: ../mcharmap/unicode-blocks.h:103
+msgid "Georgian Supplement"
+msgstr "Gruzīņu pelikums"
+
+#: ../mcharmap/unicode-blocks.h:104 ../mcharmap/unicode-scripts.h:79
+msgid "Tifinagh"
+msgstr "Tifinagh"
+
+#: ../mcharmap/unicode-blocks.h:105
+msgid "Ethiopic Extended"
+msgstr "Etiopiešu paplašinātais"
+
+#: ../mcharmap/unicode-blocks.h:106
+msgid "Supplemental Punctuation"
+msgstr "Papildus interpunkcija"
+
+#: ../mcharmap/unicode-blocks.h:107
+msgid "CJK Radicals Supplement"
+msgstr "CJK radikāļu pielikums"
+
+#: ../mcharmap/unicode-blocks.h:108
+msgid "Kangxi Radicals"
+msgstr "Kangxi radikāļi"
+
+#: ../mcharmap/unicode-blocks.h:109
+msgid "Ideographic Description Characters"
+msgstr "Ideogrāfisko aprakstu zīmes"
+
+#: ../mcharmap/unicode-blocks.h:110
+msgid "CJK Symbols and Punctuation"
+msgstr "CJK simboli un interpunkcija"
+
+#: ../mcharmap/unicode-blocks.h:111 ../mcharmap/unicode-scripts.h:44
+msgid "Hiragana"
+msgstr "Hiragana"
+
+#: ../mcharmap/unicode-blocks.h:112 ../mcharmap/unicode-scripts.h:47
+msgid "Katakana"
+msgstr "Katakana"
+
+#: ../mcharmap/unicode-blocks.h:113 ../mcharmap/unicode-scripts.h:20
+msgid "Bopomofo"
+msgstr "Bopomofo"
+
+#: ../mcharmap/unicode-blocks.h:114
+msgid "Hangul Compatibility Jamo"
+msgstr "Hangulas savietojams ar Jamo"
+
+#: ../mcharmap/unicode-blocks.h:115
+msgid "Kanbun"
+msgstr "Kanbun"
+
+#: ../mcharmap/unicode-blocks.h:116
+msgid "Bopomofo Extended"
+msgstr "Bopomofo paplašinātais"
+
+#: ../mcharmap/unicode-blocks.h:117
+msgid "CJK Strokes"
+msgstr "CJK izvilkumi"
+
+#: ../mcharmap/unicode-blocks.h:118
+msgid "Katakana Phonetic Extensions"
+msgstr "Katakana fonētiskie paplašinājumi"
+
+#: ../mcharmap/unicode-blocks.h:119
+msgid "Enclosed CJK Letters and Months"
+msgstr "Apvilktas CJK zīmes un mēneši"
+
+#: ../mcharmap/unicode-blocks.h:120
+msgid "CJK Compatibility"
+msgstr "CJK savietojamība"
+
+#: ../mcharmap/unicode-blocks.h:121
+msgid "CJK Unified Ideographs Extension A"
+msgstr "CJK vienotie ideogrāfu paplašinājumi A"
+
+#: ../mcharmap/unicode-blocks.h:122
+msgid "Yijing Hexagram Symbols"
+msgstr "Yijing heksagramu simboli"
+
+#: ../mcharmap/unicode-blocks.h:123
+msgid "CJK Unified Ideographs"
+msgstr "CJK unificēti ideogrāfi"
+
+#: ../mcharmap/unicode-blocks.h:124
+msgid "Yi Syllables"
+msgstr "Yi zilbes"
+
+#: ../mcharmap/unicode-blocks.h:125
+msgid "Yi Radicals"
+msgstr "Yi radikāļi"
+
+#: ../mcharmap/unicode-blocks.h:126
+msgid "Modifier Tone Letters"
+msgstr "Skaņas modificējamās zīmes"
+
+#: ../mcharmap/unicode-blocks.h:127
+msgid "Latin Extended-D"
+msgstr "Latīņu paplašinātais-D"
+
+#: ../mcharmap/unicode-blocks.h:128 ../mcharmap/unicode-scripts.h:69
+msgid "Syloti Nagri"
+msgstr "Syloti Nagri raksts"
+
+#: ../mcharmap/unicode-blocks.h:129
+msgid "Phags-pa"
+msgstr "Phags-pa"
+
+#: ../mcharmap/unicode-blocks.h:130
+msgid "Hangul Syllables"
+msgstr "Hangulas zilbju raksts"
+
+#: ../mcharmap/unicode-blocks.h:131
+msgid "High Surrogates"
+msgstr "Augsti aizstājēji"
+
+#: ../mcharmap/unicode-blocks.h:132
+msgid "High Private Use Surrogates"
+msgstr "Augsti privātas lietošanas aizstājēji"
+
+#: ../mcharmap/unicode-blocks.h:133
+msgid "Low Surrogates"
+msgstr "Zemi aizstājēji"
+
+#: ../mcharmap/unicode-blocks.h:134
+msgid "Private Use Area"
+msgstr "Privāts lietojuma lauks"
+
+#: ../mcharmap/unicode-blocks.h:135
+msgid "CJK Compatibility Ideographs"
+msgstr "CJK savietojamības ideogrāfi"
+
+#: ../mcharmap/unicode-blocks.h:136
+msgid "Alphabetic Presentation Forms"
+msgstr "Alfabētiskas prezentācijas formas"
+
+#: ../mcharmap/unicode-blocks.h:137
+msgid "Arabic Presentation Forms-A"
+msgstr "Arābu prezentācijas formas-A"
+
+#: ../mcharmap/unicode-blocks.h:138
+msgid "Variation Selectors"
+msgstr "Variāciju atlasītāji"
+
+#: ../mcharmap/unicode-blocks.h:139
+msgid "Vertical Forms"
+msgstr "Vertikālās formas"
+
+#: ../mcharmap/unicode-blocks.h:140
+msgid "Combining Half Marks"
+msgstr "Puszīmju kombinēšana"
+
+#: ../mcharmap/unicode-blocks.h:141
+msgid "CJK Compatibility Forms"
+msgstr "CJK savietojamības formas"
+
+#: ../mcharmap/unicode-blocks.h:142
+msgid "Small Form Variants"
+msgstr "Mazie formu varianti"
+
+#: ../mcharmap/unicode-blocks.h:143
+msgid "Arabic Presentation Forms-B"
+msgstr "Arābu prezentācijas formas-B"
+
+#: ../mcharmap/unicode-blocks.h:144
+msgid "Halfwidth and Fullwidth Forms"
+msgstr "Pusplatās un platās formas"
+
+#: ../mcharmap/unicode-blocks.h:145
+msgid "Specials"
+msgstr "Speciālie"
+
+#: ../mcharmap/unicode-blocks.h:146
+msgid "Linear B Syllabary"
+msgstr "Lineārais B zilbjuraksts"
+
+#: ../mcharmap/unicode-blocks.h:147
+msgid "Linear B Ideograms"
+msgstr "Lineārās B ideogrammas"
+
+#: ../mcharmap/unicode-blocks.h:148
+msgid "Aegean Numbers"
+msgstr "Aegean cipari"
+
+#: ../mcharmap/unicode-blocks.h:149
+msgid "Ancient Greek Numbers"
+msgstr "Sengrieķu cipari"
+
+#: ../mcharmap/unicode-blocks.h:150 ../mcharmap/unicode-scripts.h:60
+msgid "Old Italic"
+msgstr "Senais Itāļu"
+
+#: ../mcharmap/unicode-blocks.h:151 ../mcharmap/unicode-scripts.h:36
+msgid "Gothic"
+msgstr "Gotu"
+
+#: ../mcharmap/unicode-blocks.h:152 ../mcharmap/unicode-scripts.h:80
+msgid "Ugaritic"
+msgstr "Ugaritic"
+
+#: ../mcharmap/unicode-blocks.h:153 ../mcharmap/unicode-scripts.h:61
+msgid "Old Persian"
+msgstr "Senpersiešu"
+
+#: ../mcharmap/unicode-blocks.h:154 ../mcharmap/unicode-scripts.h:31
+msgid "Deseret"
+msgstr "Tuksneša"
+
+#: ../mcharmap/unicode-blocks.h:155 ../mcharmap/unicode-scripts.h:67
+msgid "Shavian"
+msgstr "Shavian"
+
+#: ../mcharmap/unicode-blocks.h:156 ../mcharmap/unicode-scripts.h:63
+msgid "Osmanya"
+msgstr "Osmaņu"
+
+#: ../mcharmap/unicode-blocks.h:157
+msgid "Cypriot Syllabary"
+msgstr "Kipras zilbju raksts"
+
+#: ../mcharmap/unicode-blocks.h:158 ../mcharmap/unicode-scripts.h:65
+msgid "Phoenician"
+msgstr "Phoeniciēņu"
+
+#: ../mcharmap/unicode-blocks.h:159 ../mcharmap/unicode-scripts.h:48
+msgid "Kharoshthi"
+msgstr "Kharoshthi"
+
+#: ../mcharmap/unicode-blocks.h:160 ../mcharmap/unicode-scripts.h:28
+msgid "Cuneiform"
+msgstr "Ķīļraksts"
+
+#: ../mcharmap/unicode-blocks.h:161
+msgid "Cuneiform Numbers and Punctuation"
+msgstr "Ķīļraksta skaitļi un interpunkcija"
+
+#: ../mcharmap/unicode-blocks.h:162
+msgid "Byzantine Musical Symbols"
+msgstr "Bizantiešu mūzikas simboli"
+
+#: ../mcharmap/unicode-blocks.h:163
+msgid "Musical Symbols"
+msgstr "Mūzikas simboli"
+
+#: ../mcharmap/unicode-blocks.h:164
+msgid "Ancient Greek Musical Notation"
+msgstr "Sengrieķu mūzikas nošu raksts"
+
+#: ../mcharmap/unicode-blocks.h:165
+msgid "Tai Xuan Jing Symbols"
+msgstr "Tai Xuan Jing simboli"
+
+#: ../mcharmap/unicode-blocks.h:166
+msgid "Counting Rod Numerals"
+msgstr "Skaita Rod Skaitļus"
+
+#: ../mcharmap/unicode-blocks.h:167
+msgid "Mathematical Alphanumeric Symbols"
+msgstr "Matemātiskie burtu-ciparu simboli"
+
+#: ../mcharmap/unicode-blocks.h:168
+msgid "CJK Unified Ideographs Extension B"
+msgstr "CJK vienotais ideogrāfu paplašinājums B"
+
+#: ../mcharmap/unicode-blocks.h:169
+msgid "CJK Compatibility Ideographs Supplement"
+msgstr "CJK savietojamības ideogrāfu apgāde"
+
+#: ../mcharmap/unicode-blocks.h:170
+msgid "Tags"
+msgstr "Birkas"
+
+#: ../mcharmap/unicode-blocks.h:171
+msgid "Variation Selectors Supplement"
+msgstr "Papildus variāciju selektors"
+
+#: ../mcharmap/unicode-blocks.h:172
+msgid "Supplementary Private Use Area-A"
+msgstr "Papildus privātais A lauka lietojums"
+
+#: ../mcharmap/unicode-blocks.h:173
+msgid "Supplementary Private Use Area-B"
+msgstr "Papildus privātais B lauka lietojums"
+
+#: ../mcharmap/unicode-scripts.h:21
+msgid "Braille"
+msgstr "Brails"
+
+#: ../mcharmap/unicode-scripts.h:24
+msgid "Canadian Aboriginal"
+msgstr "Kanādas iezemiešu"
+
+#: ../mcharmap/unicode-scripts.h:29
+msgid "Cypriot"
+msgstr "Kipras"
+
+#: ../mcharmap/unicode-scripts.h:37
+msgid "Greek"
+msgstr "Grieķu"
+
+#: ../mcharmap/unicode-scripts.h:40
+msgid "Han"
+msgstr "Han"
+
+#: ../mcharmap/unicode-scripts.h:41
+msgid "Hangul"
+msgstr "Hangulas"
+
+#: ../mcharmap/unicode-scripts.h:45
+msgid "Inherited"
+msgstr "Mantots"
+
+#: ../mcharmap/unicode-scripts.h:51
+msgid "Latin"
+msgstr "Latīņu"
+
+#: ../mcharmap/unicode-scripts.h:53
+msgid "Linear B"
+msgstr "Lineārs B"
+
+#: ../mcharmap/unicode-scripts.h:58
+msgid "Nko"
+msgstr "Nko"
+
+#: ../mcharmap/unicode-scripts.h:64
+msgid "Phags Pa"
+msgstr "Phags Pa"
+
+#: ../mcharmap/unicode-scripts.h:81
+msgid "Yi"
+msgstr "Yi"
+
+#: ../mcharmap/mcharmap-block-chapters.c:61
+msgid "All"
+msgstr "Viss"
+
+#: ../mcharmap/mcharmap-block-chapters.c:79
+msgid "Unicode Block"
+msgstr "Unicode bloks"
+
+#: ../mcharmap/mcharmap-script-chapters.c:76
+msgid "Script"
+msgstr "Skripts"
+
+#: ../mcharmap/mcharmap-search-dialog.c:549
+msgid "Information"
+msgstr "Informācija"
+
+#. follow hig guidelines
+#: ../mcharmap/mcharmap-search-dialog.c:753
+msgid "Find"
+msgstr "Meklēt"
+
+#: ../mcharmap/mcharmap-search-dialog.c:767
+msgid "_Previous"
+msgstr "_Iepriekšējais"
+
+#: ../mcharmap/mcharmap-search-dialog.c:774
+msgid "_Next"
+msgstr "_Nākamais"
+
+#: ../mcharmap/mcharmap-search-dialog.c:784
+msgid "_Search:"
+msgstr "_Meklēt:"
+
+#: ../mcharmap/mcharmap-search-dialog.c:794
+msgid "Match _whole word"
+msgstr "Sakrīt _viss vārds"
+
+#: ../mcharmap/mcharmap-search-dialog.c:799
+msgid "Search in character _details"
+msgstr "Meklēt rakstzīmju _detaļās"
+

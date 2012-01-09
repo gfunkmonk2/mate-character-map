@@ -1,0 +1,54 @@
+<!-- ##### SECTION Title ##### -->
+McharmapBlockCodepointList
+
+<!-- ##### SECTION Short_Description ##### -->
+
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT McharmapBlockCodepointListPrivate ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### STRUCT McharmapBlockCodepointList ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### ARG McharmapBlockCodepointList:first-codepoint ##### -->
+<para>
+
+</para>
+
+<!-- ##### ARG McharmapBlockCodepointList:last-codepoint ##### -->
+<para>
+
+</para>
+
+<!-- ##### FUNCTION mcharmap_block_codepoint_list_new ##### -->
+<para>
+
+</para>
+
+@start: 
+@end: 
+@Returns: 
+
+

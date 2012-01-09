@@ -1,0 +1,1208 @@
+# translation of mk.po to Macedonian
+# translation of mcharmap.HEAD.mk.po to
+# This file is distributed under the same license as the mcharmap.HEAD.mk package.
+# Copyright (C) 2003
+#
+#
+# Ivica Micev <icko@elfasko.org.mk>, 2006.
+# Arangel Angov <ufo@linux.net.mk>, 2006, 2008.
+# Jovan Naumovski <jovan@lugola.net>, 2006, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: mk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-01-09 03:52+0000\n"
+"PO-Revision-Date: 2008-02-27 01:17+0100\n"
+"Last-Translator: Arangel Angov <ufo@linux.net.mk>\n"
+"Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../mcharmap.desktop.in.h:1 ../mcharmap/mcharmap-window.c:885
+msgid "Character Map"
+msgstr "Знаковна табела"
+
+#: ../mcharmap.desktop.in.h:2
+msgid "Insert special characters into documents"
+msgstr "Внесувај специјални карактери во документите"
+
+#: ../mcharmap/mcharmap-charmap.c:269
+msgid "Canonical decomposition:"
+msgstr "Закони на декомпозиција:"
+
+#: ../mcharmap/mcharmap-charmap.c:310 ../mcharmap/mcharmap-table.c:286
+msgid "[not a printable character]"
+msgstr "[непечатлив знак]"
+
+#: ../mcharmap/mcharmap-charmap.c:324
+msgid "General Character Properties"
+msgstr "Општи својства на знаците"
+
+#. character category
+#: ../mcharmap/mcharmap-charmap.c:327
+msgid "Unicode category:"
+msgstr "Уникод категорија:"
+
+#: ../mcharmap/mcharmap-charmap.c:336
+msgid "Various Useful Representations"
+msgstr "Различни корисни прикази"
+
+#: ../mcharmap/mcharmap-charmap.c:346
+msgid "UTF-8:"
+msgstr "UTF-8:"
+
+#: ../mcharmap/mcharmap-charmap.c:354
+msgid "UTF-16:"
+msgstr "UTF-16:"
+
+#: ../mcharmap/mcharmap-charmap.c:365
+msgid "C octal escaped UTF-8:"
+msgstr "Октално одбегнат UTF-8:"
+
+#: ../mcharmap/mcharmap-charmap.c:375
+msgid "XML decimal entity:"
+msgstr "XML децимален ентитет:"
+
+#: ../mcharmap/mcharmap-charmap.c:386
+msgid "Annotations and Cross References"
+msgstr "Прибелешки и насоки"
+
+#: ../mcharmap/mcharmap-charmap.c:393
+msgid "Alias names:"
+msgstr "Втори имиња:"
+
+#: ../mcharmap/mcharmap-charmap.c:402
+msgid "Notes:"
+msgstr "Белешки:"
+
+#: ../mcharmap/mcharmap-charmap.c:411
+msgid "See also:"
+msgstr "Исто види и:"
+
+#: ../mcharmap/mcharmap-charmap.c:420
+msgid "Approximate equivalents:"
+msgstr "Апроксимативни еквиваленти:"
+
+#: ../mcharmap/mcharmap-charmap.c:429
+msgid "Equivalents:"
+msgstr "Еквиваленти:"
+
+#: ../mcharmap/mcharmap-charmap.c:445
+msgid "CJK Ideograph Information"
+msgstr "CJK Идеографски информации"
+
+#: ../mcharmap/mcharmap-charmap.c:450
+msgid "Definition in English:"
+msgstr "Дефиниција на англиски:"
+
+#: ../mcharmap/mcharmap-charmap.c:455
+msgid "Mandarin Pronunciation:"
+msgstr "Мандарински изговор:"
+
+#: ../mcharmap/mcharmap-charmap.c:460
+msgid "Cantonese Pronunciation:"
+msgstr "Кантонски изговор:"
+
+#: ../mcharmap/mcharmap-charmap.c:465
+msgid "Japanese On Pronunciation:"
+msgstr "Јапонски Он изговор:"
+
+#: ../mcharmap/mcharmap-charmap.c:470
+msgid "Japanese Kun Pronunciation:"
+msgstr "Јапонски Кун изговор:"
+
+#: ../mcharmap/mcharmap-charmap.c:475
+msgid "Tang Pronunciation:"
+msgstr "Танг изговор:"
+
+#: ../mcharmap/mcharmap-charmap.c:480
+msgid "Korean Pronunciation:"
+msgstr "Корејски изговор:"
+
+#: ../mcharmap/mcharmap-charmap.c:788
+msgid "Characte_r Table"
+msgstr "Знаков_на табела"
+
+#: ../mcharmap/mcharmap-charmap.c:791
+msgid "Character _Details"
+msgstr "_Детали за знакот"
+
+#: ../mcharmap/mcharmap-mini-fontsel.c:228
+msgid "Font"
+msgstr "Фонт"
+
+#: ../mcharmap/mcharmap-mini-fontsel.c:242
+msgid "Font Family"
+msgstr "Фонт фамилија"
+
+#: ../mcharmap/mcharmap-mini-fontsel.c:260
+msgid "Font Size"
+msgstr "Фонт големина"
+
+#: ../mcharmap/mcharmap-settings.c:61 ../mcharmap/mcharmap-window.c:538
+msgid "_File"
+msgstr "_Датотека"
+
+#: ../mcharmap/mcharmap-settings.c:92
+msgid "MateConf could not be initialized."
+msgstr "Gconf не може да се иницијализира."
+
+#. Unicode assigns "Common" as the script name for any character not
+#. * specifically listed in Scripts.txt
+#: ../mcharmap/mcharmap-script-codepoint-list.c:458
+#: ../mcharmap/unicode-scripts.h:26
+msgid "Common"
+msgstr "Вообичаено"
+
+#: ../mcharmap/mcharmap-table.c:1497
+msgid "Unknown character, unable to identify."
+msgstr "Непознат знак, неможна идентификација."
+
+#: ../mcharmap/mcharmap-table.c:1499
+#: ../mcharmap/mcharmap-search-dialog.c:596
+msgid "Not found."
+msgstr "Не е најдено."
+
+#: ../mcharmap/mcharmap-table.c:1502
+msgid "Character found."
+msgstr "Знакот е пронајден."
+
+#: ../mcharmap/mcharmap-table.c:1566
+msgid "Character Table"
+msgstr "Знаковна табела"
+
+#: ../mcharmap/mcharmap-unicode-info.c:96
+msgid "<Non Private Use High Surrogate>"
+msgstr "<Не е за приватна употреба, висок сурогат>"
+
+#: ../mcharmap/mcharmap-unicode-info.c:98
+msgid "<Private Use High Surrogate>"
+msgstr "<За приватна употреба, висок сурогат>"
+
+#: ../mcharmap/mcharmap-unicode-info.c:100
+msgid "<Low Surrogate>"
+msgstr "<Ниски сурогати>"
+
+#: ../mcharmap/mcharmap-unicode-info.c:102
+msgid "<Private Use>"
+msgstr "<Приватна употреба>"
+
+#: ../mcharmap/mcharmap-unicode-info.c:104
+msgid "<Plane 15 Private Use>"
+msgstr "<Рамно 15 приватна употреба>"
+
+#: ../mcharmap/mcharmap-unicode-info.c:106
+msgid "<Plane 16 Private Use>"
+msgstr "<Рамно 16 приватна употреба>"
+
+#: ../mcharmap/mcharmap-unicode-info.c:111
+msgid "<not assigned>"
+msgstr "<недоделено>"
+
+#: ../mcharmap/mcharmap-unicode-info.c:124
+msgid "Other, Control"
+msgstr "Друго, контрола"
+
+#: ../mcharmap/mcharmap-unicode-info.c:125
+msgid "Other, Format"
+msgstr "Друго, формат"
+
+#: ../mcharmap/mcharmap-unicode-info.c:126
+msgid "Other, Not Assigned"
+msgstr "Друго, недоделено"
+
+#: ../mcharmap/mcharmap-unicode-info.c:127
+msgid "Other, Private Use"
+msgstr "Друго, приватна употреба"
+
+#: ../mcharmap/mcharmap-unicode-info.c:128
+msgid "Other, Surrogate"
+msgstr "Друго, сурогат"
+
+#: ../mcharmap/mcharmap-unicode-info.c:129
+msgid "Letter, Lowercase"
+msgstr "Буква, мала"
+
+#: ../mcharmap/mcharmap-unicode-info.c:130
+msgid "Letter, Modifier"
+msgstr "Буква, менување"
+
+#: ../mcharmap/mcharmap-unicode-info.c:131
+msgid "Letter, Other"
+msgstr "Буква, друго"
+
+#: ../mcharmap/mcharmap-unicode-info.c:132
+msgid "Letter, Titlecase"
+msgstr "Буква, насловна"
+
+#: ../mcharmap/mcharmap-unicode-info.c:133
+msgid "Letter, Uppercase"
+msgstr "Буква, голема"
+
+#: ../mcharmap/mcharmap-unicode-info.c:134
+msgid "Mark, Spacing Combining"
+msgstr "Знак, комбинирано празно"
+
+#: ../mcharmap/mcharmap-unicode-info.c:135
+msgid "Mark, Enclosing"
+msgstr "Знак, незатворено"
+
+#: ../mcharmap/mcharmap-unicode-info.c:136
+msgid "Mark, Non-Spacing"
+msgstr "Знак, без празно"
+
+#: ../mcharmap/mcharmap-unicode-info.c:137
+msgid "Number, Decimal Digit"
+msgstr "Број, децимала"
+
+#: ../mcharmap/mcharmap-unicode-info.c:138
+msgid "Number, Letter"
+msgstr "Број, буква"
+
+#: ../mcharmap/mcharmap-unicode-info.c:139
+msgid "Number, Other"
+msgstr "Број, друго"
+
+#: ../mcharmap/mcharmap-unicode-info.c:140
+msgid "Punctuation, Connector"
+msgstr "Спојување, конектор"
+
+#: ../mcharmap/mcharmap-unicode-info.c:141
+msgid "Punctuation, Dash"
+msgstr "Спојување, точка"
+
+#: ../mcharmap/mcharmap-unicode-info.c:142
+msgid "Punctuation, Close"
+msgstr "Спојување, затворено"
+
+#: ../mcharmap/mcharmap-unicode-info.c:143
+msgid "Punctuation, Final Quote"
+msgstr "Спојување, финално"
+
+#: ../mcharmap/mcharmap-unicode-info.c:144
+msgid "Punctuation, Initial Quote"
+msgstr "Спојување, почетно"
+
+#: ../mcharmap/mcharmap-unicode-info.c:145
+msgid "Punctuation, Other"
+msgstr "Спојување, друго"
+
+#: ../mcharmap/mcharmap-unicode-info.c:146
+msgid "Punctuation, Open"
+msgstr "Спојување, отвори"
+
+#: ../mcharmap/mcharmap-unicode-info.c:147
+msgid "Symbol, Currency"
+msgstr "Симбол, валута"
+
+#: ../mcharmap/mcharmap-unicode-info.c:148
+msgid "Symbol, Modifier"
+msgstr "Симбол, менување"
+
+#: ../mcharmap/mcharmap-unicode-info.c:149
+msgid "Symbol, Math"
+msgstr "Симбол, математички"
+
+#: ../mcharmap/mcharmap-unicode-info.c:150
+msgid "Symbol, Other"
+msgstr "Симбол, друго"
+
+#: ../mcharmap/mcharmap-unicode-info.c:151
+msgid "Separator, Line"
+msgstr "Делител, линија"
+
+#: ../mcharmap/mcharmap-unicode-info.c:152
+msgid "Separator, Paragraph"
+msgstr "Делител, параграф"
+
+#: ../mcharmap/mcharmap-unicode-info.c:153
+msgid "Separator, Space"
+msgstr "Делител, празно"
+
+#: ../mcharmap/mcharmap-window.c:181
+msgid "Searching..."
+msgstr "Барам..."
+
+#: ../mcharmap/mcharmap-window.c:381
+msgid ""
+"Mcharmap is free software; you can redistribute it and/or modify it under "
+"the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"Mcharmap е слободен софтвер; можете да го редистрибуирате и/или "
+"модифицирате под GNU General Public License како публикуван од Free Software "
+"Foundation; верзија 2 од лиценцата, или (по ваша опција) некоја следна "
+"верзија."
+
+#: ../mcharmap/mcharmap-window.c:385
+msgid ""
+"Permission is hereby granted, free of charge, to any person obtaining a copy "
+"of the Unicode data files to deal in them without restriction, including "
+"without limitation the rights to use, copy, modify, merge, publish, "
+"distribute, and/or sell copies."
+msgstr ""
+"Дозволата овде е достапна, бесплатно, на било која личност која има копија "
+"од Уникод датотеките со податоци за да се занимава со нив без ограничувања, "
+"вклучувајќи без ограничување на правото на користење, копирање, изменување, "
+"спојување, објавување, дистрибуирање и/или продавање копии."
+
+#: ../mcharmap/mcharmap-window.c:389
+msgid ""
+"Mcharmap and the Unicode data files are distributed in the hope that they "
+"will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty "
+"of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+"Public License and Unicode Copyright for more details."
+msgstr ""
+"Mcharmap и Уникод податочните датотеки се дистрибуирани со надеж дека тие "
+"ќе бидат корисни, но БЕЗ НИКАКВИ ГАРАНЦИИ; Дури и вградената гаранција за "
+"тргување или СОСТОЈБА ЗА ПРАКТИЧНА НАМЕНА. Погледни ги GNU General Public "
+"License и Unicode Copyright за повеќе детали."
+
+#: ../mcharmap/mcharmap-window.c:393
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Mcharmap; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA  02111-1307  USA"
+msgstr ""
+"Треба да имате добиено копија од GNU Јавната општа лиценца заедно со "
+"Mcharmap; ако не пишете на Free Software Foundation, Inc., 59 Temple Place, "
+"Suite 330, Boston, MA  02111-1307  USA"
+
+#: ../mcharmap/mcharmap-window.c:396
+msgid ""
+"Also you should have received a copy of the Unicode Copyright along with "
+"Mcharmap; you can always find it at Unicode's website: http://www.unicode."
+"org/copyright.html"
+msgstr ""
+"Исто така треба да добиете копија на Уникод авторските права заедно со "
+"Mcharmap; можете секогаш да ги најдете на веб сајтот на Уникод: http://www."
+"unicode. org/copyright.html"
+
+#: ../mcharmap/mcharmap-window.c:409
+msgid ""
+"MATE Character Map\n"
+"based on the Unicode Character Database"
+msgstr ""
+"MATE мапа на карактери\n"
+"базирана на Уникод табелата на карактери"
+
+#: ../mcharmap/mcharmap-window.c:415 ../mcharmap/main.c:58
+msgid "Mcharmap"
+msgstr "Mcharmap"
+
+#: ../mcharmap/mcharmap-window.c:417
+msgid "translator-credits"
+msgstr "Арангел Ангов <ufo@linux.net.mk>"
+
+#: ../mcharmap/mcharmap-window.c:516 ../mcharmap/mcharmap-window.c:565
+msgid "Next Script"
+msgstr "Следнo писмо"
+
+#: ../mcharmap/mcharmap-window.c:516 ../mcharmap/mcharmap-window.c:567
+msgid "Previous Script"
+msgstr "Претходно писмо"
+
+#: ../mcharmap/mcharmap-window.c:522 ../mcharmap/mcharmap-window.c:677
+msgid "Next Block"
+msgstr "Следен блок"
+
+#: ../mcharmap/mcharmap-window.c:522 ../mcharmap/mcharmap-window.c:677
+msgid "Previous Block"
+msgstr "Претходен блок"
+
+#: ../mcharmap/mcharmap-window.c:539
+msgid "_View"
+msgstr "_Поглед"
+
+#: ../mcharmap/mcharmap-window.c:540
+msgid "_Search"
+msgstr "_Барај"
+
+#: ../mcharmap/mcharmap-window.c:541
+msgid "_Go"
+msgstr "_Оди"
+
+#: ../mcharmap/mcharmap-window.c:542
+msgid "_Help"
+msgstr "По_мош"
+
+#: ../mcharmap/mcharmap-window.c:544
+msgid "_Quit"
+msgstr "_Излез"
+
+#: ../mcharmap/mcharmap-window.c:547
+msgid "Zoom _In"
+msgstr "Зум _во"
+
+#: ../mcharmap/mcharmap-window.c:549
+msgid "Zoom _Out"
+msgstr "Зум _од"
+
+#: ../mcharmap/mcharmap-window.c:551
+msgid "_Normal Size"
+msgstr "_Нормална големина"
+
+#: ../mcharmap/mcharmap-window.c:554
+msgid "_Find..."
+msgstr "_Најди..."
+
+#: ../mcharmap/mcharmap-window.c:556
+msgid "Find _Next"
+msgstr "Најди _следно"
+
+#: ../mcharmap/mcharmap-window.c:558
+msgid "Find _Previous"
+msgstr "Најди _претходно"
+
+#: ../mcharmap/mcharmap-window.c:561
+msgid "_Next Character"
+msgstr "_Следен знак"
+
+#: ../mcharmap/mcharmap-window.c:563
+msgid "_Previous Character"
+msgstr "_Претходен знак"
+
+#: ../mcharmap/mcharmap-window.c:570
+msgid "_Contents"
+msgstr "_Содржина"
+
+#: ../mcharmap/mcharmap-window.c:572
+msgid "_About"
+msgstr "_За"
+
+#: ../mcharmap/mcharmap-window.c:578
+msgid "By _Script"
+msgstr "По _писмо"
+
+#: ../mcharmap/mcharmap-window.c:580
+msgid "By _Unicode Block"
+msgstr "По _јуникод блокови"
+
+#: ../mcharmap/mcharmap-window.c:642
+msgid "Snap _Columns to Power of Two"
+msgstr "Прикачи _ги колоните на два на квадрат"
+
+#: ../mcharmap/mcharmap-window.c:775
+msgid "_Text to copy:"
+msgstr "_Текст за копирање:"
+
+#: ../mcharmap/mcharmap-window.c:796
+msgid "Copy to the clipboard."
+msgstr "Копирај во спремник."
+
+#: ../mcharmap/main.c:41
+msgid "Font to start with; ex: 'Serif 27'"
+msgstr "Фонт за почеток; пр: 'Serif 27'"
+
+#: ../mcharmap/main.c:41
+msgid "FONT"
+msgstr "FONT"
+
+#: ../mcharmap/unicode-blocks.h:20
+msgid "Basic Latin"
+msgstr "Основен Latin"
+
+#: ../mcharmap/unicode-blocks.h:21
+msgid "Latin-1 Supplement"
+msgstr "Latin-1 суплемент"
+
+#: ../mcharmap/unicode-blocks.h:22
+msgid "Latin Extended-A"
+msgstr "Latin Extended-A"
+
+#: ../mcharmap/unicode-blocks.h:23
+msgid "Latin Extended-B"
+msgstr "Latin Extended-B"
+
+#: ../mcharmap/unicode-blocks.h:24
+msgid "IPA Extensions"
+msgstr "IPA екстензии"
+
+#: ../mcharmap/unicode-blocks.h:25
+msgid "Spacing Modifier Letters"
+msgstr "Просторно изменети знаци"
+
+#: ../mcharmap/unicode-blocks.h:26
+msgid "Combining Diacritical Marks"
+msgstr "Комбинирање дијакритични знаци"
+
+#: ../mcharmap/unicode-blocks.h:27
+msgid "Greek and Coptic"
+msgstr "Грчки и коптски"
+
+#: ../mcharmap/unicode-blocks.h:28 ../mcharmap/unicode-scripts.h:30
+msgid "Cyrillic"
+msgstr "Кирилица"
+
+#: ../mcharmap/unicode-blocks.h:29
+msgid "Cyrillic Supplement"
+msgstr "Кирилица суплементи"
+
+#: ../mcharmap/unicode-blocks.h:30 ../mcharmap/unicode-scripts.h:17
+msgid "Armenian"
+msgstr "Ерменски"
+
+#: ../mcharmap/unicode-blocks.h:31 ../mcharmap/unicode-scripts.h:43
+msgid "Hebrew"
+msgstr "Еврејски"
+
+#: ../mcharmap/unicode-blocks.h:32 ../mcharmap/unicode-scripts.h:16
+msgid "Arabic"
+msgstr "Арапски"
+
+#: ../mcharmap/unicode-blocks.h:33 ../mcharmap/unicode-scripts.h:70
+msgid "Syriac"
+msgstr "Сириски"
+
+#: ../mcharmap/unicode-blocks.h:34
+msgid "Arabic Supplement"
+msgstr "Арапски суплемент"
+
+#: ../mcharmap/unicode-blocks.h:35 ../mcharmap/unicode-scripts.h:76
+msgid "Thaana"
+msgstr "Thaana"
+
+#: ../mcharmap/unicode-blocks.h:36
+msgid "NKo"
+msgstr "NKo"
+
+#: ../mcharmap/unicode-blocks.h:37 ../mcharmap/unicode-scripts.h:32
+msgid "Devanagari"
+msgstr "Devanagari"
+
+#: ../mcharmap/unicode-blocks.h:38 ../mcharmap/unicode-scripts.h:19
+msgid "Bengali"
+msgstr "Bengali"
+
+#: ../mcharmap/unicode-blocks.h:39 ../mcharmap/unicode-scripts.h:39
+msgid "Gurmukhi"
+msgstr "Gurmukhi"
+
+#: ../mcharmap/unicode-blocks.h:40 ../mcharmap/unicode-scripts.h:38
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#: ../mcharmap/unicode-blocks.h:41 ../mcharmap/unicode-scripts.h:62
+msgid "Oriya"
+msgstr "Oriya"
+
+#: ../mcharmap/unicode-blocks.h:42 ../mcharmap/unicode-scripts.h:74
+msgid "Tamil"
+msgstr "Тамилски"
+
+#: ../mcharmap/unicode-blocks.h:43 ../mcharmap/unicode-scripts.h:75
+msgid "Telugu"
+msgstr "Telugu"
+
+#: ../mcharmap/unicode-blocks.h:44 ../mcharmap/unicode-scripts.h:46
+msgid "Kannada"
+msgstr "Kannada"
+
+#: ../mcharmap/unicode-blocks.h:45 ../mcharmap/unicode-scripts.h:54
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: ../mcharmap/unicode-blocks.h:46 ../mcharmap/unicode-scripts.h:68
+msgid "Sinhala"
+msgstr "Sinhala"
+
+#: ../mcharmap/unicode-blocks.h:47 ../mcharmap/unicode-scripts.h:77
+msgid "Thai"
+msgstr "Тајландски"
+
+#: ../mcharmap/unicode-blocks.h:48 ../mcharmap/unicode-scripts.h:50
+msgid "Lao"
+msgstr "Lao"
+
+#: ../mcharmap/unicode-blocks.h:49 ../mcharmap/unicode-scripts.h:78
+msgid "Tibetan"
+msgstr "Тибетански"
+
+#: ../mcharmap/unicode-blocks.h:50 ../mcharmap/unicode-scripts.h:56
+msgid "Myanmar"
+msgstr "Бурмански"
+
+#: ../mcharmap/unicode-blocks.h:51 ../mcharmap/unicode-scripts.h:34
+msgid "Georgian"
+msgstr "Грузиски"
+
+#: ../mcharmap/unicode-blocks.h:52
+msgid "Hangul Jamo"
+msgstr "Hangul Jamo"
+
+#: ../mcharmap/unicode-blocks.h:53 ../mcharmap/unicode-scripts.h:33
+msgid "Ethiopic"
+msgstr "Етиописки"
+
+#: ../mcharmap/unicode-blocks.h:54
+msgid "Ethiopic Supplement"
+msgstr "Етиописки суплемент"
+
+#: ../mcharmap/unicode-blocks.h:55 ../mcharmap/unicode-scripts.h:25
+msgid "Cherokee"
+msgstr "Cherokee"
+
+#: ../mcharmap/unicode-blocks.h:56
+msgid "Unified Canadian Aboriginal Syllabics"
+msgstr "Unified Canadian Aboriginal Syllabics"
+
+#: ../mcharmap/unicode-blocks.h:57 ../mcharmap/unicode-scripts.h:59
+msgid "Ogham"
+msgstr "Ogham"
+
+#: ../mcharmap/unicode-blocks.h:58 ../mcharmap/unicode-scripts.h:66
+msgid "Runic"
+msgstr "Рунски"
+
+#: ../mcharmap/unicode-blocks.h:59 ../mcharmap/unicode-scripts.h:71
+msgid "Tagalog"
+msgstr "Филипински"
+
+#: ../mcharmap/unicode-blocks.h:60 ../mcharmap/unicode-scripts.h:42
+msgid "Hanunoo"
+msgstr "Hanunoo"
+
+#: ../mcharmap/unicode-blocks.h:61 ../mcharmap/unicode-scripts.h:23
+msgid "Buhid"
+msgstr "Buhid"
+
+#: ../mcharmap/unicode-blocks.h:62 ../mcharmap/unicode-scripts.h:72
+msgid "Tagbanwa"
+msgstr "Tagbanwa"
+
+#: ../mcharmap/unicode-blocks.h:63 ../mcharmap/unicode-scripts.h:49
+msgid "Khmer"
+msgstr "Khmer"
+
+#: ../mcharmap/unicode-blocks.h:64 ../mcharmap/unicode-scripts.h:55
+msgid "Mongolian"
+msgstr "Монголски"
+
+#: ../mcharmap/unicode-blocks.h:65 ../mcharmap/unicode-scripts.h:52
+msgid "Limbu"
+msgstr "Limbu"
+
+#: ../mcharmap/unicode-blocks.h:66 ../mcharmap/unicode-scripts.h:73
+msgid "Tai Le"
+msgstr "Tai Le"
+
+#: ../mcharmap/unicode-blocks.h:67 ../mcharmap/unicode-scripts.h:57
+msgid "New Tai Lue"
+msgstr "New Tai Lue"
+
+#: ../mcharmap/unicode-blocks.h:68
+msgid "Khmer Symbols"
+msgstr "Khmer Симболи"
+
+#: ../mcharmap/unicode-blocks.h:69 ../mcharmap/unicode-scripts.h:22
+msgid "Buginese"
+msgstr "Buginese"
+
+#: ../mcharmap/unicode-blocks.h:70 ../mcharmap/unicode-scripts.h:18
+msgid "Balinese"
+msgstr "Balinese"
+
+#: ../mcharmap/unicode-blocks.h:71
+msgid "Phonetic Extensions"
+msgstr "Фонетски додатоци"
+
+#: ../mcharmap/unicode-blocks.h:72
+msgid "Phonetic Extensions Supplement"
+msgstr "Дополнителни фонетски додатоци"
+
+#: ../mcharmap/unicode-blocks.h:73
+msgid "Combining Diacritical Marks Supplement"
+msgstr "Комбинирање дијакритични знаци"
+
+#: ../mcharmap/unicode-blocks.h:74
+msgid "Latin Extended Additional"
+msgstr "Latin Extended Additional"
+
+#: ../mcharmap/unicode-blocks.h:75
+msgid "Greek Extended"
+msgstr "Грчки проширено"
+
+#: ../mcharmap/unicode-blocks.h:76
+msgid "General Punctuation"
+msgstr "Генрална интерпункција"
+
+#: ../mcharmap/unicode-blocks.h:77
+msgid "Superscripts and Subscripts"
+msgstr "Горни и долни индекси"
+
+#: ../mcharmap/unicode-blocks.h:78
+msgid "Currency Symbols"
+msgstr "Валутен знак"
+
+#: ../mcharmap/unicode-blocks.h:79
+msgid "Combining Diacritical Marks for Symbols"
+msgstr "Комбинирање дијакритични знаци за симболи"
+
+#: ../mcharmap/unicode-blocks.h:80
+msgid "Letterlike Symbols"
+msgstr "Писмолики симболи"
+
+#: ../mcharmap/unicode-blocks.h:81
+msgid "Number Forms"
+msgstr "Број форма"
+
+#: ../mcharmap/unicode-blocks.h:82
+msgid "Arrows"
+msgstr "Стрелки"
+
+#: ../mcharmap/unicode-blocks.h:83
+msgid "Mathematical Operators"
+msgstr "Математички знаци"
+
+#: ../mcharmap/unicode-blocks.h:84
+msgid "Miscellaneous Technical"
+msgstr "Технички додавки"
+
+#: ../mcharmap/unicode-blocks.h:85
+msgid "Control Pictures"
+msgstr "Контролни слики"
+
+#: ../mcharmap/unicode-blocks.h:86
+msgid "Optical Character Recognition"
+msgstr "Оптичко Знаковно Препознавање"
+
+#: ../mcharmap/unicode-blocks.h:87
+msgid "Enclosed Alphanumerics"
+msgstr "Незатворање алфанумерички"
+
+#: ../mcharmap/unicode-blocks.h:88
+msgid "Box Drawing"
+msgstr "Цртачка кутија"
+
+#: ../mcharmap/unicode-blocks.h:89
+msgid "Block Elements"
+msgstr "Блок елементи"
+
+#: ../mcharmap/unicode-blocks.h:90
+msgid "Geometric Shapes"
+msgstr "Геометриски форми"
+
+#: ../mcharmap/unicode-blocks.h:91
+msgid "Miscellaneous Symbols"
+msgstr "Симболски додавки"
+
+#: ../mcharmap/unicode-blocks.h:92
+msgid "Dingbats"
+msgstr "Dingbats"
+
+#: ../mcharmap/unicode-blocks.h:93
+msgid "Miscellaneous Mathematical Symbols-A"
+msgstr "Додавни математички симболи -А"
+
+#: ../mcharmap/unicode-blocks.h:94
+msgid "Supplemental Arrows-A"
+msgstr "Суплементни стрелки -А"
+
+#: ../mcharmap/unicode-blocks.h:95
+msgid "Braille Patterns"
+msgstr "Брајови шеми"
+
+#: ../mcharmap/unicode-blocks.h:96
+msgid "Supplemental Arrows-B"
+msgstr "Суплементни стрелки -Б"
+
+#: ../mcharmap/unicode-blocks.h:97
+msgid "Miscellaneous Mathematical Symbols-B"
+msgstr "Додавни математички симболи -Б"
+
+#: ../mcharmap/unicode-blocks.h:98
+msgid "Supplemental Mathematical Operators"
+msgstr "Суплементни математички оператори"
+
+#: ../mcharmap/unicode-blocks.h:99
+msgid "Miscellaneous Symbols and Arrows"
+msgstr "Додавни симболи и стрелки"
+
+#: ../mcharmap/unicode-blocks.h:100 ../mcharmap/unicode-scripts.h:35
+msgid "Glagolitic"
+msgstr "Глаголитик"
+
+#: ../mcharmap/unicode-blocks.h:101
+msgid "Latin Extended-C"
+msgstr "Latin Extended-C"
+
+#: ../mcharmap/unicode-blocks.h:102 ../mcharmap/unicode-scripts.h:27
+msgid "Coptic"
+msgstr "Коптски"
+
+#: ../mcharmap/unicode-blocks.h:103
+msgid "Georgian Supplement"
+msgstr "Грузиски суплемент"
+
+#: ../mcharmap/unicode-blocks.h:104 ../mcharmap/unicode-scripts.h:79
+msgid "Tifinagh"
+msgstr "Tifinagh"
+
+#: ../mcharmap/unicode-blocks.h:105
+msgid "Ethiopic Extended"
+msgstr "Етиопск"
+
+#: ../mcharmap/unicode-blocks.h:106
+msgid "Supplemental Punctuation"
+msgstr "Дополнителен правопис"
+
+#: ../mcharmap/unicode-blocks.h:107
+msgid "CJK Radicals Supplement"
+msgstr "CJK радикали суплементи"
+
+#: ../mcharmap/unicode-blocks.h:108
+msgid "Kangxi Radicals"
+msgstr "Kangxi радикали"
+
+#: ../mcharmap/unicode-blocks.h:109
+msgid "Ideographic Description Characters"
+msgstr "Идеографски описни знаци"
+
+#: ../mcharmap/unicode-blocks.h:110
+msgid "CJK Symbols and Punctuation"
+msgstr "CJK симболи и спојувања"
+
+#: ../mcharmap/unicode-blocks.h:111 ../mcharmap/unicode-scripts.h:44
+msgid "Hiragana"
+msgstr "Хирагана"
+
+#: ../mcharmap/unicode-blocks.h:112 ../mcharmap/unicode-scripts.h:47
+msgid "Katakana"
+msgstr "Катакана"
+
+#: ../mcharmap/unicode-blocks.h:113 ../mcharmap/unicode-scripts.h:20
+msgid "Bopomofo"
+msgstr "Bopomofo"
+
+#: ../mcharmap/unicode-blocks.h:114
+msgid "Hangul Compatibility Jamo"
+msgstr "Hangul Compatibility Jamo"
+
+#: ../mcharmap/unicode-blocks.h:115
+msgid "Kanbun"
+msgstr "Kanbun"
+
+#: ../mcharmap/unicode-blocks.h:116
+msgid "Bopomofo Extended"
+msgstr "Bopomofo Extended"
+
+#: ../mcharmap/unicode-blocks.h:117
+msgid "CJK Strokes"
+msgstr "CJK притискање"
+
+#: ../mcharmap/unicode-blocks.h:118
+msgid "Katakana Phonetic Extensions"
+msgstr "Katakana Phonetic Extensions"
+
+#: ../mcharmap/unicode-blocks.h:119
+msgid "Enclosed CJK Letters and Months"
+msgstr "Незатворени CJK букви и месеци"
+
+#: ../mcharmap/unicode-blocks.h:120
+msgid "CJK Compatibility"
+msgstr "CJK компатибилност"
+
+#: ../mcharmap/unicode-blocks.h:121
+msgid "CJK Unified Ideographs Extension A"
+msgstr "CJK унифицирани идеографи А"
+
+#: ../mcharmap/unicode-blocks.h:122
+msgid "Yijing Hexagram Symbols"
+msgstr "Yijing Hexagram Symbols"
+
+#: ../mcharmap/unicode-blocks.h:123
+msgid "CJK Unified Ideographs"
+msgstr "CJK унифицирани идеографи"
+
+#: ../mcharmap/unicode-blocks.h:124
+msgid "Yi Syllables"
+msgstr "Yi Syllables"
+
+#: ../mcharmap/unicode-blocks.h:125
+msgid "Yi Radicals"
+msgstr "Yi радикали"
+
+#: ../mcharmap/unicode-blocks.h:126
+msgid "Modifier Tone Letters"
+msgstr "Звучно изменети знаци"
+
+#: ../mcharmap/unicode-blocks.h:127
+msgid "Latin Extended-D"
+msgstr "Latin Extended-D"
+
+#: ../mcharmap/unicode-blocks.h:128 ../mcharmap/unicode-scripts.h:69
+msgid "Syloti Nagri"
+msgstr "Syloti Nagri"
+
+#: ../mcharmap/unicode-blocks.h:129
+msgid "Phags-pa"
+msgstr "Phags-pa"
+
+#: ../mcharmap/unicode-blocks.h:130
+msgid "Hangul Syllables"
+msgstr "Hangul Syllables"
+
+#: ../mcharmap/unicode-blocks.h:131
+msgid "High Surrogates"
+msgstr "Високи сурогати"
+
+#: ../mcharmap/unicode-blocks.h:132
+msgid "High Private Use Surrogates"
+msgstr "Високи сурогати за приватна употреба"
+
+#: ../mcharmap/unicode-blocks.h:133
+msgid "Low Surrogates"
+msgstr "Ниски сурогати"
+
+#: ../mcharmap/unicode-blocks.h:134
+msgid "Private Use Area"
+msgstr "Поле за приватна употреба"
+
+#: ../mcharmap/unicode-blocks.h:135
+msgid "CJK Compatibility Ideographs"
+msgstr "CJK компатибилни идеографи"
+
+#: ../mcharmap/unicode-blocks.h:136
+msgid "Alphabetic Presentation Forms"
+msgstr "Алфабетски форми на приказ"
+
+#: ../mcharmap/unicode-blocks.h:137
+msgid "Arabic Presentation Forms-A"
+msgstr "Arabic презентазицка форма-A"
+
+#: ../mcharmap/unicode-blocks.h:138
+msgid "Variation Selectors"
+msgstr "Одбир на варијации"
+
+#: ../mcharmap/unicode-blocks.h:139
+msgid "Vertical Forms"
+msgstr "Вертикални форми"
+
+#: ../mcharmap/unicode-blocks.h:140
+msgid "Combining Half Marks"
+msgstr "Комбинирај полузнаци"
+
+#: ../mcharmap/unicode-blocks.h:141
+msgid "CJK Compatibility Forms"
+msgstr "CJK компатибилни форми"
+
+#: ../mcharmap/unicode-blocks.h:142
+msgid "Small Form Variants"
+msgstr "Малоформни варијанти"
+
+#: ../mcharmap/unicode-blocks.h:143
+msgid "Arabic Presentation Forms-B"
+msgstr "Arabic презентациска форма-B"
+
+#: ../mcharmap/unicode-blocks.h:144
+msgid "Halfwidth and Fullwidth Forms"
+msgstr "Полу и цели форми"
+
+#: ../mcharmap/unicode-blocks.h:145
+msgid "Specials"
+msgstr "Специјални"
+
+#: ../mcharmap/unicode-blocks.h:146
+msgid "Linear B Syllabary"
+msgstr "Linear B Syllabary"
+
+#: ../mcharmap/unicode-blocks.h:147
+msgid "Linear B Ideograms"
+msgstr "Linear B идеограми"
+
+#: ../mcharmap/unicode-blocks.h:148
+msgid "Aegean Numbers"
+msgstr "Aegean бројки"
+
+#: ../mcharmap/unicode-blocks.h:149
+msgid "Ancient Greek Numbers"
+msgstr "Древни Грчки бројки"
+
+#: ../mcharmap/unicode-blocks.h:150 ../mcharmap/unicode-scripts.h:60
+msgid "Old Italic"
+msgstr "Стар италик"
+
+#: ../mcharmap/unicode-blocks.h:151 ../mcharmap/unicode-scripts.h:36
+msgid "Gothic"
+msgstr "Готика"
+
+#: ../mcharmap/unicode-blocks.h:152 ../mcharmap/unicode-scripts.h:80
+msgid "Ugaritic"
+msgstr "Ugaritic"
+
+#: ../mcharmap/unicode-blocks.h:153 ../mcharmap/unicode-scripts.h:61
+msgid "Old Persian"
+msgstr "Старо персиски"
+
+#: ../mcharmap/unicode-blocks.h:154 ../mcharmap/unicode-scripts.h:31
+msgid "Deseret"
+msgstr "Deseret"
+
+#: ../mcharmap/unicode-blocks.h:155 ../mcharmap/unicode-scripts.h:67
+msgid "Shavian"
+msgstr "Shavian"
+
+#: ../mcharmap/unicode-blocks.h:156 ../mcharmap/unicode-scripts.h:63
+msgid "Osmanya"
+msgstr "Osmanya"
+
+#: ../mcharmap/unicode-blocks.h:157
+msgid "Cypriot Syllabary"
+msgstr "Cypriot Syllabary"
+
+#: ../mcharmap/unicode-blocks.h:158 ../mcharmap/unicode-scripts.h:65
+msgid "Phoenician"
+msgstr "Phoenician"
+
+#: ../mcharmap/unicode-blocks.h:159 ../mcharmap/unicode-scripts.h:48
+msgid "Kharoshthi"
+msgstr "Kharoshthi"
+
+#: ../mcharmap/unicode-blocks.h:160 ../mcharmap/unicode-scripts.h:28
+msgid "Cuneiform"
+msgstr "Cuneiform"
+
+#: ../mcharmap/unicode-blocks.h:161
+msgid "Cuneiform Numbers and Punctuation"
+msgstr "Cuneiform броеви и знаци"
+
+#: ../mcharmap/unicode-blocks.h:162
+msgid "Byzantine Musical Symbols"
+msgstr "Византиски музички симболи"
+
+#: ../mcharmap/unicode-blocks.h:163
+msgid "Musical Symbols"
+msgstr "Музички симболи"
+
+#: ../mcharmap/unicode-blocks.h:164
+msgid "Ancient Greek Musical Notation"
+msgstr "античко грчки музички ноти"
+
+#: ../mcharmap/unicode-blocks.h:165
+msgid "Tai Xuan Jing Symbols"
+msgstr "Tai Xuan Jing симболи"
+
+#: ../mcharmap/unicode-blocks.h:166
+msgid "Counting Rod Numerals"
+msgstr "Counting Rod Numerals"
+
+#: ../mcharmap/unicode-blocks.h:167
+msgid "Mathematical Alphanumeric Symbols"
+msgstr "Математички алфанумерички симболи"
+
+#: ../mcharmap/unicode-blocks.h:168
+msgid "CJK Unified Ideographs Extension B"
+msgstr "CJK недефинирани идеографи екстензија B"
+
+#: ../mcharmap/unicode-blocks.h:169
+msgid "CJK Compatibility Ideographs Supplement"
+msgstr "CJK компатибилни идеографи суплементи"
+
+#: ../mcharmap/unicode-blocks.h:170
+msgid "Tags"
+msgstr "Тагови"
+
+#: ../mcharmap/unicode-blocks.h:171
+msgid "Variation Selectors Supplement"
+msgstr "Одбир на варијациски суплементи"
+
+#: ../mcharmap/unicode-blocks.h:172
+msgid "Supplementary Private Use Area-A"
+msgstr "Суплементи за приватна употреба-A"
+
+#: ../mcharmap/unicode-blocks.h:173
+msgid "Supplementary Private Use Area-B"
+msgstr "Суплементи за приватна употреба-B"
+
+#: ../mcharmap/unicode-scripts.h:21
+msgid "Braille"
+msgstr "Брајови"
+
+#: ../mcharmap/unicode-scripts.h:24
+msgid "Canadian Aboriginal"
+msgstr "Canadian Aboriginal"
+
+#: ../mcharmap/unicode-scripts.h:29
+msgid "Cypriot"
+msgstr "Кипарски"
+
+#: ../mcharmap/unicode-scripts.h:37
+msgid "Greek"
+msgstr "Грчки"
+
+#: ../mcharmap/unicode-scripts.h:40
+msgid "Han"
+msgstr "Han"
+
+#: ../mcharmap/unicode-scripts.h:41
+msgid "Hangul"
+msgstr "Hangul"
+
+#: ../mcharmap/unicode-scripts.h:45
+msgid "Inherited"
+msgstr "Inherited"
+
+#: ../mcharmap/unicode-scripts.h:51
+msgid "Latin"
+msgstr "Латински"
+
+#: ../mcharmap/unicode-scripts.h:53
+msgid "Linear B"
+msgstr "Linear B"
+
+#: ../mcharmap/unicode-scripts.h:58
+msgid "Nko"
+msgstr "Nko"
+
+#: ../mcharmap/unicode-scripts.h:64
+msgid "Phags Pa"
+msgstr "Phags Pa"
+
+#: ../mcharmap/unicode-scripts.h:81
+msgid "Yi"
+msgstr "Yi"
+
+#: ../mcharmap/mcharmap-search-dialog.c:550
+msgid "Information"
+msgstr "Информација"
+
+#. follow hig guidelines
+#: ../mcharmap/mcharmap-search-dialog.c:754
+msgid "Find"
+msgstr "Најди"
+
+#: ../mcharmap/mcharmap-search-dialog.c:768
+msgid "_Previous"
+msgstr "_Претходно"
+
+#: ../mcharmap/mcharmap-search-dialog.c:775
+msgid "_Next"
+msgstr "_Следно"
+
+#: ../mcharmap/mcharmap-search-dialog.c:785
+msgid "_Search:"
+msgstr "_Барај:"
+
+#: ../mcharmap/mcharmap-search-dialog.c:795
+msgid "Match _whole word"
+msgstr "Совпадни _цел збор"
+
+#: ../mcharmap/mcharmap-search-dialog.c:800
+msgid "Search in character _details"
+msgstr "Барај во _детали за знакот"
+
+#: ../mcharmap/mcharmap-block-chapters-model.c:52
+msgid "All"
+msgstr "Сѐ"
+
+#: ../mcharmap/mcharmap-block-chapters-model.c:130
+msgid "Unicode Block"
+msgstr "Јуникод блок"
+
+#: ../mcharmap/mcharmap-script-chapters-model.c:131
+msgid "Script"
+msgstr "Писмо"
+
